@@ -1190,6 +1190,7 @@ def index(self, guess=None):
         &lt;body&gt;
         40223108&lt;br /&gt;
         &lt;a href="gear1"&gt;各人齒輪嚙合&lt;/a&gt;&lt;br /&gt;
+        
         &lt;/body&gt;
         &lt;/html&gt;
  '''
