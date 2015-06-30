@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
+<!-- Created by Leo (http://leoeditor.com/leo_toc.html) -->
 <?xml-stylesheet ekr_test ?>
-<leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
+<leo_file xmlns:leo="http://www.leo-editor.org/2011/leo" >
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
 	<global_window_position top="50" left="50" height="500" width="700"/>
@@ -22,45 +22,43 @@
 <v t="2014fall.20141212095015.2004"><vh>__init__</vh></v>
 <v t="2014fall.20141212095015.1778"><vh>index_orig</vh></v>
 <v t="2014fall.20141212095015.1779"><vh>hello</vh></v>
-<v t=".20150519112521.1"><vh>index</vh></v>
+<v t="2015.20150519112521.1"><vh>index</vh></v>
 <v t="2014fall.20141215194146.1791"><vh>index2</vh></v>
 <v t="2015.20150330144929.1713"><vh>twoDgear</vh></v>
 <v t="2015.20150331094055.1733"><vh>threeDgear</vh></v>
 <v t="2015.20150330144929.1762"><vh>do2Dgear</vh></v>
 <v t="2015.20150331094055.1735"><vh>do3Dgear</vh></v>
 <v t="2015.20150330144929.1765"><vh>mygeartest</vh></v>
-<v t=".20150428191028.1815"><vh>mygeartest2</vh></v>
-<v t=".20150628202851.1"><vh>gear1</vh></v>
-<v t=".20150628202852.1"><vh>gear2</vh></v>
-<v t=".20150628202948.1"><vh>gaer3</vh></v>
+<v t="2015.20150428191028.1815"><vh>mygeartest2</vh></v>
+<v t="2015.20150628202851.1"><vh>gear1</vh></v>
 <v t="2015.20150331094055.1737"><vh>my3Dgeartest</vh></v>
 <v t="2014fall.20141215194146.1793"><vh>doCheck</vh></v>
 <v t="2014fall.20141215194146.1789"><vh>guessform</vh></v>
 </v>
 </v>
-<v t=".20150526101807.1"><vh>@edit man.py</vh></v>
-<v t=".20150526101832.1"><vh>@edit man2.py</vh></v>
-<v t=".20150526102341.1" a="E"><vh>@path static</vh>
-<v t=".20150526102357.1"><vh>@edit axuploader.js</vh></v>
-<v t=".20150526102414.1" a="E"><vh>@path weblink</vh>
-<v t=".20150526102429.1"><vh>@edit pfcUtils.js</vh></v>
-<v t=".20150526102445.1"><vh>@edit wl_header.js</vh></v>
+<v t="2015.20150526101807.1"><vh>@edit man.py</vh></v>
+<v t="2015.20150526101832.1"><vh>@edit man2.py</vh></v>
+<v t="2015.20150526102341.1" a="E"><vh>@path static</vh>
+<v t="2015.20150526102357.1"><vh>@edit axuploader.js</vh></v>
+<v t="2015.20150526102414.1" a="E"><vh>@path weblink</vh>
+<v t="2015.20150526102429.1"><vh>@edit pfcUtils.js</vh></v>
+<v t="2015.20150526102445.1"><vh>@edit wl_header.js</vh></v>
 </v>
-<v t=".20150428191028.1819" a="E"><vh>@path Brython3.1.1-20150328-091302</vh>
-<v t=".20150428191028.1820"><vh>@edit spur.py</vh></v>
+<v t="2015.20150428191028.1819" a="E"><vh>@path Brython3.1.1-20150328-091302</vh>
+<v t="2015.20150428191028.1820"><vh>@edit spur.py</vh></v>
 </v>
-<v t=".20150526102651.1" a="E"><vh>@path Brython3.1.3-20150514-095342</vh>
-<v t=".20150526102704.1" a="E"><vh>@path Lib/site-packages/</vh>
-<v t=".20150526102717.1"><vh>@edit spur.py</vh></v>
+<v t="2015.20150526102651.1" a="E"><vh>@path Brython3.1.3-20150514-095342</vh>
+<v t="2015.20150526102704.1" a="E"><vh>@path Lib/site-packages/</vh>
+<v t="2015.20150526102717.1"><vh>@edit spur.py</vh></v>
 </v>
 </v>
 </v>
 <v t="2014fall.20141212095015.1780"><vh>@edit setup.py</vh></v>
 </v>
-<v t=".20150428201639.1887"
-expanded=".20150428201639.1889,"><vh>@file gear.py</vh></v>
-<v t=".20150526103145.1" a="E"><vh>以下為參考檔案</vh>
-<v t=".20150526103155.1"><vh>asciitbinary</vh></v>
+<v t="2015.20150428201639.1887"
+expanded="2015.20150428201639.1889,"><vh>@file gear.py</vh></v>
+<v t="2015.20150526103145.1" a="E"><vh>以下為參考檔案</vh>
+<v t="2015.20150526103155.1"><vh>asciitbinary</vh></v>
 </v>
 <v t="2015.20150330144929.1715"><vh>以下為專案報告相關檔案</vh>
 <v t="2015.20150330144929.1716"><vh>@edit SUMMARY.md</vh></v>
@@ -73,1506 +71,6 @@ expanded=".20150428201639.1889,"><vh>@file gear.py</vh></v>
 </v>
 </vnodes>
 <tnodes>
-<t tx=".20150428191028.1815">@cherrypy.expose
-# N 為齒數, M 為模數, P 為壓力角
-def mygeartest2(self , M=15, P=15,N1=7, N2=9,N3=11,N4=13,N5=15 ,N6=17):
-    outstring = '''
-&lt;!DOCTYPE html&gt; 
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-&lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
-&lt;script src="/static/Cango2D.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;script src="/static/gearUtils-04.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;!-- 啟動 brython() --&gt;
-&lt;body onload="brython()"&gt;
-&lt;form method=POST action=mygeartest2&gt;
-模數:&lt;input type=text name=M&gt;&lt;br /&gt;
-壓力角:&lt;input type=text name=P&gt;&lt;br /&gt;
-齒輪1齒數:&lt;input type=text name=N1&gt;&lt;br /&gt;
-齒輪2齒數:&lt;input type=text name=N2&gt;&lt;br /&gt;
-齒輪3齒數:&lt;input type=text name=N3&gt;&lt;br /&gt;
-齒輪4齒數:&lt;input type=text name=N4&gt;&lt;br /&gt;
-齒輪5齒數:&lt;input type=text name=N5&gt;&lt;br /&gt;
-齒輪6齒數:&lt;input type=text name=N6&gt;&lt;br /&gt;
-&lt;input type=submit value=send&gt;
-&lt;/form&gt;
-
-&lt;!-- 以下為 canvas 畫圖程式 --&gt;
-&lt;script type="text/python"&gt;
-# 從 browser 導入 document
-from browser import document
-from math import *
-# 請注意, 這裡導入位於 Lib/site-packages 目錄下的 spur.py 檔案
-import spur
-
-# 準備在 id="plotarea" 的 canvas 中繪圖
-canvas = document["plotarea"]
-ctx = canvas.getContext("2d")
-
-# 以下利用 spur.py 程式進行繪圖, 接下來的協同設計運算必須要配合使用者的需求進行設計運算與繪圖
-# 其中並將工作分配給其他組員建立類似 spur.py 的相關零件繪圖模組
-# midx, midy 為齒輪圓心座標, rp 為節圓半徑, n 為齒數, pa 為壓力角, color 為線的顏色
-# Gear(midx, midy, rp, n=20, pa=20, color="black"):
-# 模數決定齒的尺寸大小, 囓合齒輪組必須有相同的模數與壓力角
-# 壓力角 pa 單位為角度
-pa ='''+str(P)+'''
-# m 為模數
-m = '''+str(M)+'''
-# 第1齒輪齒數
-n_g1 = '''+str(N1)+'''
-# 第2齒輪齒數
-n_g2 = '''+str(N2)+'''
-# 第3齒輪齒數
-n_g3 = '''+str(N3)+'''
-# 第4齒輪齒數
-n_g4 = '''+str(N4)+'''
-# 第5齒輪齒數
-n_g5 = '''+str(N5)+'''
-# 第5齒輪齒數
-n_g6 = '''+str(N6)+'''
-# 計算兩齒輪的節圓半徑
-rp_g1 = m*n_g1/2
-rp_g2 = m*n_g2/2
-rp_g3 = m*n_g3/2
-rp_g4 = m*n_g4/2
-rp_g5 = m*n_g5/2
-rp_g6 = m*n_g6/2
-# 繪圖第1齒輪的圓心座標
-x_g1 = 200
-y_g1 = 200
-# 第2齒輪的圓心座標, 假設排列成水平, 表示各齒輪圓心 y 座標相同
-x_g2 = x_g1 + rp_g1 + rp_g2
-y_g2 = y_g1
-# 第3齒輪的圓心座標
-x_g3 = x_g1 + rp_g1 + 2*rp_g2 + rp_g3
-y_g3 = y_g1
-# 第4齒輪的圓心座標
-x_g4 = x_g1 + rp_g1 + 2*rp_g2 +2* rp_g3+rp_g4
-y_g4= y_g1
-# 第5齒輪的圓心座標
-x_g5 = x_g1+ rp_g1 + 2*rp_g2 +2* rp_g3+2*rp_g4+rp_g5
-y_g5= y_g1
-# 第6齒輪的圓心座標
-x_g6 = x_g1+ rp_g1 + 2*rp_g2 +2* rp_g3+2*rp_g4+2*rp_g5+rp_g6
-y_g6= y_g1
-
-# 將第1齒輪順時鐘轉 90 度
-# 使用 ctx.save() 與 ctx.restore() 以確保各齒輪以相對座標進行旋轉繪圖
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g1, y_g1)
-# rotate to engage
-ctx.rotate(pi/2)
-# put it back
-ctx.translate(-x_g1, -y_g1)
-spur.Spur(ctx).Gear(x_g1, y_g1, rp_g1, n_g1, pa, "blue")
-ctx.restore()
-
-# 將第2齒輪逆時鐘轉 90 度之後, 再多轉一齒, 以便與第1齒輪進行囓合
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g2, y_g2)
-# rotate to engage
-ctx.rotate(-pi/2-pi/n_g2)
-# put it back
-ctx.translate(-x_g2, -y_g2)
-spur.Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "black")
-ctx.restore()
-
-# 將第3齒輪逆時鐘轉 90 度之後, 再往回轉第2齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g3, y_g3)
-# rotate to engage
-# pi+pi/n_g2 為第2齒輪從順時鐘轉 90 度之後, 必須配合目前的標記線所作的齒輪 2 轉動角度, 要轉換到齒輪3 的轉動角度
-# 必須乘上兩齒輪齒數的比例, 若齒輪2 大, 則齒輪3 會轉動較快
-# 第1個 -pi/2 為將原先垂直的第3齒輪定位線逆時鐘旋轉 90 度
-# -pi/n_g3 則是第3齒與第2齒定位線重合後, 必須再逆時鐘多轉一齒的轉角, 以便進行囓合
-# (pi+pi/n_g2)*n_g2/n_g3 則是第2齒原定位線為順時鐘轉動 90 度, 
-# 但是第2齒輪為了與第1齒輪囓合, 已經距離定位線, 多轉了 180 度, 再加上第2齒輪的一齒角度, 因為要帶動第3齒輪定位, 
-# 這個修正角度必須要再配合第2齒與第3齒的轉速比加以轉換成第3齒輪的轉角, 因此乘上 n_g2/n_g3
-ctx.rotate(-pi/2-pi/n_g3+(pi+pi/n_g2)*n_g2/n_g3)
-# put it back
-ctx.translate(-x_g3, -y_g3)
-spur.Spur(ctx).Gear(x_g3, y_g3, rp_g3, n_g3, pa, "red")
-ctx.restore()
-
-#齒輪4
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g4, y_g4)
-# rotate to engage
-ctx.rotate(-pi/2-pi/n_g4+(pi+pi/n_g3)*n_g3/n_g4-(pi+pi/n_g2)*n_g2/n_g4)
-# put it back
-ctx.translate(-x_g4, -y_g4)
-spur.Spur(ctx).Gear(x_g4, y_g4, rp_g4, n_g4, pa, "pink")
-ctx.restore()
-
-#齒輪5
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g5, y_g5)
-# rotate to engage
-ctx.rotate(-pi/n_g5+(pi+pi/n_g4)*n_g4/n_g5-(pi+pi/n_g3)*n_g3/n_g5+(pi+pi/n_g2)*n_g2/n_g5)
-# put it back
-ctx.translate(-x_g5, -y_g5)
-spur.Spur(ctx).Gear(x_g5, y_g5, rp_g5, n_g5, pa, "yellow")
-ctx.restore()
-
-#齒輪6
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g6, y_g6)
-# rotate to engage
-ctx.rotate(-pi/2-pi/n_g6+(pi+pi/n_g5)*n_g5/n_g6-
-(pi+pi/n_g4)*n_g4/n_g6+(pi+pi/n_g3)*n_g3/n_g6- (pi+pi/n_g2)*n_g2/n_g6)
-# put it back
-ctx.translate(-x_g6, -y_g6)
-spur.Spur(ctx).Gear(x_g6, y_g6, rp_g6, n_g6, pa, "pruple")
-ctx.restore()
-
-
-# 按照上面三個正齒輪的囓合轉角運算, 隨後的傳動齒輪轉角便可依此類推, 完成6個齒輪的囓合繪圖
-
-&lt;/script&gt;
-&lt;canvas id="plotarea" width="2500" height="1500"&gt;&lt;/canvas&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-'''
-
-    return outstring
-</t>
-<t tx=".20150428191028.1819"></t>
-<t tx=".20150519112521.1">@cherrypy.expose
-def index(self, guess=None):
-     outstring = '''
-&lt;!DOCTYPE html&gt; 
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-&lt;/head&gt;
-        &lt;body&gt;
-        第七組齒輪部分&lt;br /&gt;
-        &lt;a href="mygeartest2"&gt;mygeartest2&lt;/a&gt;&lt;br /&gt;
-        &lt;a href="man"&gt;man(自動組立)&lt;/a&gt;&lt;br /&gt;
-        &lt;a href="man2"&gt;man2(全組分工組立)&lt;/a&gt;&lt;br /&gt;
-        &lt;a href="gear1"&gt;1人齒輪嚙合&lt;/a&gt;&lt;br /&gt;
-        &lt;a href="gear2"&gt;2人齒輪嚙合&lt;/a&gt;&lt;br /&gt;
-        &lt;a href="gear3"&gt;3人齒輪嚙合&lt;/a&gt;&lt;br /&gt;
-        &lt;/body&gt;
-        &lt;/html&gt;
- '''
-
-     return outstring
-</t>
-<t tx=".20150526102341.1"></t>
-<t tx=".20150526102414.1"></t>
-<t tx=".20150526102651.1"></t>
-<t tx=".20150526102704.1"></t>
-<t tx=".20150526103145.1"></t>
-<t tx=".20150526103155.1">import struct
-normals = []
-points = []
-triangles = []
-triangle_number = 0
-def load_binary_stl(fp):
-    '''
-    二位元 STL 檔案格式如下:
-    檔案標頭共有 80 個字元(bytes), 內容通常省略, 但是內容不可使用 solid, 以免與文字檔案 STL 混淆
-    UINT8[80] – Header
-    UINT32 – Number of triangles (I:佔 4 bytes 的 unsigned integer)
-      
-    foreach triangle
-    REAL32[3] – Normal vector (f:每一座標分量為一佔 4 bytes 的 float, 共佔 12 bytes)
-    REAL32[3] – Vertex 1
-    REAL32[3] – Vertex 2
-    REAL32[3] – Vertex 3
-    UINT16 – Attribute byte count (H:兩個 bytes 的 unsigned short, 表示 attribute byte count)
-    end
-      
-    '''
-    # 已經在外部開檔
-    #fp=open(filename,'rb')
-    header=fp.read(80)
-    triangle_number = struct.unpack('I',fp.read(4))[0]
-    #print(triangle_number)
-    count=0
-    while True:
-        try:
-            p=fp.read(12)
-            if len(p)==12:
-                n=[struct.unpack('f',p[0:4])[0],struct.unpack('f',p[4:8])[0],struct.unpack('f',p[8:12])[0]]
-                normals.append(n)
-                l = len(points)
-                #print(n)
-            p=fp.read(12)
-            if len(p)==12:
-                p1=[struct.unpack('f',p[0:4])[0],struct.unpack('f',p[4:8])[0],struct.unpack('f',p[8:12])[0]]
-                points.append(p1)
-                #print(p1)
-            p=fp.read(12)
-            if len(p)==12:
-                p2=[struct.unpack('f',p[0:4])[0],struct.unpack('f',p[4:8])[0],struct.unpack('f',p[8:12])[0]]
-                points.append(p2)
-            p=fp.read(12)
-            if len(p)==12:
-                p3=[struct.unpack('f',p[0:4])[0],struct.unpack('f',p[4:8])[0],struct.unpack('f',p[8:12])[0]]
-                points.append(p3)
-                triangles.append((l, l+1, l+2))
-            # 使用 count 來計算三角形平面個數
-            # triangle_number 為 STL 檔案中的三角形個數
-            count += 1
-            #print(count)
-            # 在前面 12*4 個 bytes 的 normal 與三個點資料後, 為
-            # 一個 2 bytes 長的 unsigned short, 其值為零, 為 attribute
-            fp.read(2)
-            # 讀完所有三角平面後, 即跳出 while
-            if count &gt; triangle_number:
-                break
-        except EOFError:
-            break
-    #fp.close()
-def read_length(f):
-    length = struct.unpack("@i", f.read(4))
-    return length[0]
-def read_header(f):
-    f.seek(f.tell()+80)
-def write_as_ascii(outfilename):
-    f = open(outfilename, "w")
-    f.write ("solid "+outfilename+"\n")
-    for n  in range(len(triangles)):
-        f.write ("facet normal {} {} {}\n".format(normals[n][0],normals[n][1],normals[n][2]))
-        f.write ("outer loop\n")
-        f.write ("vertex {} {} {}\n".format(points[triangles[n][0]][0],points[triangles[n][0]][1],points[triangles[n][0]][2]))
-        f.write ("vertex {} {} {}\n".format(points[triangles[n][1]][0],points[triangles[n][1]][1],points[triangles[n][1]][2]))
-        f.write ("vertex {} {} {}\n".format(points[triangles[n][2]][0],points[triangles[n][2]][1],points[triangles[n][2]][2]))
-        f.write ("endloop\n")
-        f.write ("endfacet\n")
-    f.write ("endsolid "+outfilename+"\n")
-    f.close()
-def main():
-    infilename = "spikeball_bin.stl"
-    outfilename = "spikeball_ascii.stl"
-    try:
-        f = open(infilename, "rb")
-        #read_header(f)
-        #l = read_length(f)
-        try:
-            load_binary_stl(f)
-            l = len(normals)
-        except Exception as e:
-            print("Exception",e)
-        print(len(normals), len(points), len(triangles), l)
-        write_as_ascii(outfilename)
-        print("done")
-    except Exception as e:
-        print(e)
-if __name__ == '__main__':
-    main()</t>
-<t tx=".20150628202851.1">@cherrypy.expose
-# N 為齒數, M 為模數, P 為壓力角
-def gear1(self , M=5, P=15,N1=15, N2=24 ):
-    outstring = '''
-&lt;!DOCTYPE html&gt; 
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-&lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
-&lt;script src="/static/Cango2D.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;script src="/static/gearUtils-04.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;!-- 啟動 brython() --&gt;
-&lt;body onload="brython()"&gt;
-&lt;form method=POST action=gear1&gt;
-模數:&lt;input type=text name=M&gt;&lt;br /&gt;
-壓力角:&lt;input type=text name=P&gt;&lt;br /&gt;
-齒輪1齒數:&lt;select name=N1&gt;
-     &lt;option selected="true"&gt;15&lt;/option&gt;
-     &lt;option&gt;16&lt;/option&gt;
-    &lt;option&gt;17&lt;/option&gt;
-    &lt;option&gt;18&lt;/option&gt;
-    &lt;option&gt;19&lt;/option&gt;
-    &lt;option&gt;20&lt;/option&gt;
-    &lt;option&gt;21&lt;/option&gt;
-    &lt;option&gt;22&lt;/option&gt;
-    &lt;option&gt;23&lt;/option&gt;
-    &lt;option&gt;24&lt;/option&gt;
-    &lt;option&gt;25&lt;/option&gt;
-    &lt;option&gt;26&lt;/option&gt;
-    &lt;option&gt;27&lt;/option&gt;
-    &lt;option&gt;28&lt;/option&gt;
-    &lt;option&gt;29&lt;/option&gt;
-    &lt;option&gt;30&lt;/option&gt;
-    &lt;option&gt;31&lt;/option&gt;
-    &lt;option&gt;32&lt;/option&gt;
-    &lt;option&gt;33&lt;/option&gt;
-    &lt;option&gt;34&lt;/option&gt;
-    &lt;option&gt;35&lt;/option&gt;
-    &lt;option&gt;36&lt;/option&gt;
-    &lt;option&gt;37&lt;/option&gt;
-    &lt;option&gt;38&lt;/option&gt;
-    &lt;option&gt;39&lt;/option&gt;
-    &lt;option&gt;40&lt;/option&gt;
-    &lt;option&gt;41&lt;/option&gt;
-    &lt;option&gt;42&lt;/option&gt;
-    &lt;option&gt;43&lt;/option&gt;
-    &lt;option&gt;44&lt;/option&gt;
-    &lt;option&gt;45&lt;/option&gt;
-    &lt;option&gt;46&lt;/option&gt;
-    &lt;option&gt;47&lt;/option&gt;
-    &lt;option&gt;48&lt;/option&gt;
-    &lt;option&gt;49&lt;/option&gt;
-    &lt;option&gt;50&lt;/option&gt;
-    &lt;option&gt;51&lt;/option&gt;
-    &lt;option&gt;52&lt;/option&gt;
-    &lt;option&gt;53&lt;/option&gt;
-    &lt;option&gt;54&lt;/option&gt;
-    &lt;option&gt;55&lt;/option&gt;
-    &lt;option&gt;56&lt;/option&gt;
-    &lt;option&gt;57&lt;/option&gt;
-    &lt;option&gt;58&lt;/option&gt;
-    &lt;option&gt;59&lt;/option&gt;
-    &lt;option&gt;60&lt;/option&gt;
-    &lt;option&gt;61&lt;/option&gt;
-    &lt;option&gt;62&lt;/option&gt;
-    &lt;option&gt;63&lt;/option&gt;
-    &lt;option&gt;64&lt;/option&gt;
-    &lt;option&gt;65&lt;/option&gt;
-    &lt;option&gt;66&lt;/option&gt;
-    &lt;option&gt;67&lt;/option&gt;
-    &lt;option&gt;68&lt;/option&gt;
-    &lt;option&gt;69&lt;/option&gt;
-    &lt;option&gt;70&lt;/option&gt;
-    &lt;option&gt;71&lt;/option&gt;
-    &lt;option&gt;72&lt;/option&gt;
-    &lt;option&gt;73&lt;/option&gt;
-    &lt;option&gt;74&lt;/option&gt;
-    &lt;option&gt;75&lt;/option&gt;
-    &lt;option&gt;76&lt;/option&gt;
-    &lt;option&gt;77&lt;/option&gt;
-    &lt;option&gt;78&lt;/option&gt;
-    &lt;option&gt;79&lt;/option&gt;
-    &lt;option&gt;80&lt;/option&gt;
-    &lt;/select&gt;
-
-齒輪2齒數:&lt;select name=N2&gt;
-     &lt;option&gt;15&lt;/option&gt;
-     &lt;option&gt;16&lt;/option&gt;
-    &lt;option&gt;17&lt;/option&gt;
-    &lt;option&gt;18&lt;/option&gt;
-    &lt;option&gt;19&lt;/option&gt;
-    &lt;option&gt;20&lt;/option&gt;
-    &lt;option&gt;21&lt;/option&gt;
-    &lt;option&gt;22&lt;/option&gt;
-    &lt;option&gt;23&lt;/option&gt;
-    &lt;option selected="true"&gt;24&lt;/option&gt; 
-    &lt;option&gt;25&lt;/option&gt;
-    &lt;option&gt;26&lt;/option&gt;
-    &lt;option&gt;27&lt;/option&gt;
-    &lt;option&gt;28&lt;/option&gt;
-    &lt;option&gt;29&lt;/option&gt;
-    &lt;option&gt;30&lt;/option&gt;
-    &lt;option&gt;31&lt;/option&gt;
-    &lt;option&gt;32&lt;/option&gt;
-    &lt;option&gt;33&lt;/option&gt;
-    &lt;option&gt;34&lt;/option&gt;
-    &lt;option&gt;35&lt;/option&gt;
-    &lt;option&gt;36&lt;/option&gt;
-    &lt;option&gt;37&lt;/option&gt;
-    &lt;option&gt;38&lt;/option&gt;
-    &lt;option&gt;39&lt;/option&gt;
-    &lt;option&gt;40&lt;/option&gt;
-    &lt;option&gt;41&lt;/option&gt;
-    &lt;option&gt;42&lt;/option&gt;
-    &lt;option&gt;43&lt;/option&gt;
-    &lt;option&gt;44&lt;/option&gt;
-    &lt;option&gt;45&lt;/option&gt;
-    &lt;option&gt;46&lt;/option&gt;
-    &lt;option&gt;47&lt;/option&gt;
-    &lt;option&gt;48&lt;/option&gt;
-    &lt;option&gt;49&lt;/option&gt;
-    &lt;option&gt;50&lt;/option&gt;
-    &lt;option&gt;51&lt;/option&gt;
-    &lt;option&gt;52&lt;/option&gt;
-    &lt;option&gt;53&lt;/option&gt;
-    &lt;option&gt;54&lt;/option&gt;
-    &lt;option&gt;55&lt;/option&gt;
-    &lt;option&gt;56&lt;/option&gt;
-    &lt;option&gt;57&lt;/option&gt;
-    &lt;option&gt;58&lt;/option&gt;
-    &lt;option&gt;59&lt;/option&gt;
-    &lt;option&gt;60&lt;/option&gt;
-    &lt;option&gt;61&lt;/option&gt;
-    &lt;option&gt;62&lt;/option&gt;
-    &lt;option&gt;63&lt;/option&gt;
-    &lt;option&gt;64&lt;/option&gt;
-    &lt;option&gt;65&lt;/option&gt;
-    &lt;option&gt;66&lt;/option&gt;
-    &lt;option&gt;67&lt;/option&gt;
-    &lt;option&gt;68&lt;/option&gt;
-    &lt;option&gt;69&lt;/option&gt;
-    &lt;option&gt;70&lt;/option&gt;
-    &lt;option&gt;71&lt;/option&gt;
-    &lt;option&gt;72&lt;/option&gt;
-    &lt;option&gt;73&lt;/option&gt;
-    &lt;option&gt;74&lt;/option&gt;
-    &lt;option&gt;75&lt;/option&gt;
-    &lt;option&gt;76&lt;/option&gt;
-    &lt;option&gt;77&lt;/option&gt;
-    &lt;option&gt;78&lt;/option&gt;
-    &lt;option&gt;79&lt;/option&gt;
-    &lt;option&gt;80&lt;/option&gt;
-    &lt;/select&gt;
-
-&lt;input type=submit value=send&gt;
-&lt;/form&gt;
-
-&lt;!-- 以下為 canvas 畫圖程式 --&gt;
-&lt;script type="text/python"&gt;
-# 從 browser 導入 document
-from browser import document
-from math import *
-# 請注意, 這裡導入位於 Lib/site-packages 目錄下的 spur.py 檔案
-import spur
-
-# 準備在 id="plotarea" 的 canvas 中繪圖
-canvas = document["plotarea"]
-ctx = canvas.getContext("2d")
-
-# 以下利用 spur.py 程式進行繪圖, 接下來的協同設計運算必須要配合使用者的需求進行設計運算與繪圖
-# 其中並將工作分配給其他組員建立類似 spur.py 的相關零件繪圖模組
-# midx, midy 為齒輪圓心座標, rp 為節圓半徑, n 為齒數, pa 為壓力角, color 為線的顏色
-# Gear(midx, midy, rp, n=20, pa=20, color="black"):
-# 模數決定齒的尺寸大小, 囓合齒輪組必須有相同的模數與壓力角
-# 壓力角 pa 單位為角度
-pa ='''+str(P)+'''
-# m 為模數
-m = '''+str(M)+'''
-# 第1齒輪齒數
-n_g1 = '''+str(N1)+'''
-# 第2齒輪齒數
-n_g2 = '''+str(N2)+'''
-
-
-# 計算兩齒輪的節圓半徑
-rp_g1 = m*n_g1/2
-rp_g2 = m*n_g2/2
-
-# 繪圖第1齒輪的圓心座標
-x_g1 = 300
-y_g1 = 300
-# 第2齒輪的圓心座標, 假設排列成水平, 表示各齒輪圓心 y 座標相同
-x_g2 = x_g1 
-y_g2 = y_g1 + rp_g1 + rp_g2
-
-# 將第1齒輪順時鐘轉 90 度
-# 使用 ctx.save() 與 ctx.restore() 以確保各齒輪以相對座標進行旋轉繪圖
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g1, y_g1)
-# rotate to engage
-ctx.rotate(pi)
-# put it back
-ctx.translate(-x_g1, -y_g1)
-spur.Spur(ctx).Gear(x_g1, y_g1, rp_g1, n_g1, pa, "blue")
-ctx.restore()
-
-# 將第2齒輪逆時鐘轉 90 度之後, 再多轉一齒, 以便與第1齒輪進行囓合
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g2, y_g2)
-# rotate to engage
-ctx.rotate(-pi/n_g2)
-# put it back
-ctx.translate(-x_g2, -y_g2)
-spur.Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "black")
-ctx.restore()
-
-
-
-
-
-# 按照上面三個正齒輪的囓合轉角運算, 隨後的傳動齒輪轉角便可依此類推, 完成6個齒輪的囓合繪圖
-
-&lt;/script&gt;
-&lt;canvas id="plotarea" width="1200" height="1200"&gt;&lt;/canvas&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-'''
-
-    return outstring
-</t>
-<t tx=".20150628202852.1">@cherrypy.expose
-# N 為齒數, M 為模數, P 為壓力角
-def gear2(self , M=10, P=15,N1=15, N2=24,N3=15,N4=24 ):
-    outstring = '''
-&lt;!DOCTYPE html&gt; 
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-&lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
-&lt;script src="/static/Cango2D.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;script src="/static/gearUtils-04.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;!-- 啟動 brython() --&gt;
-&lt;body onload="brython()"&gt;
-&lt;form method=POST action=gear2&gt;
-模數:&lt;input type=text name=M&gt;&lt;br /&gt;
-壓力角:&lt;input type=text name=P&gt;&lt;br /&gt;
-齒輪1齒數:&lt;select name=N1&gt;
-     &lt;option selected="true"&gt;15&lt;/option&gt;
-     &lt;option&gt;16&lt;/option&gt;
-    &lt;option&gt;17&lt;/option&gt;
-    &lt;option&gt;18&lt;/option&gt;
-    &lt;option&gt;19&lt;/option&gt;
-    &lt;option&gt;20&lt;/option&gt;
-    &lt;option&gt;21&lt;/option&gt;
-    &lt;option&gt;22&lt;/option&gt;
-    &lt;option&gt;23&lt;/option&gt;
-    &lt;option&gt;24&lt;/option&gt;
-    &lt;option&gt;25&lt;/option&gt;
-    &lt;option&gt;26&lt;/option&gt;
-    &lt;option&gt;27&lt;/option&gt;
-    &lt;option&gt;28&lt;/option&gt;
-    &lt;option&gt;29&lt;/option&gt;
-    &lt;option&gt;30&lt;/option&gt;
-    &lt;option&gt;31&lt;/option&gt;
-    &lt;option&gt;32&lt;/option&gt;
-    &lt;option&gt;33&lt;/option&gt;
-    &lt;option&gt;34&lt;/option&gt;
-    &lt;option&gt;35&lt;/option&gt;
-    &lt;option&gt;36&lt;/option&gt;
-    &lt;option&gt;37&lt;/option&gt;
-    &lt;option&gt;38&lt;/option&gt;
-    &lt;option&gt;39&lt;/option&gt;
-    &lt;option&gt;40&lt;/option&gt;
-    &lt;option&gt;41&lt;/option&gt;
-    &lt;option&gt;42&lt;/option&gt;
-    &lt;option&gt;43&lt;/option&gt;
-    &lt;option&gt;44&lt;/option&gt;
-    &lt;option&gt;45&lt;/option&gt;
-    &lt;option&gt;46&lt;/option&gt;
-    &lt;option&gt;47&lt;/option&gt;
-    &lt;option&gt;48&lt;/option&gt;
-    &lt;option&gt;49&lt;/option&gt;
-    &lt;option&gt;50&lt;/option&gt;
-    &lt;option&gt;51&lt;/option&gt;
-    &lt;option&gt;52&lt;/option&gt;
-    &lt;option&gt;53&lt;/option&gt;
-    &lt;option&gt;54&lt;/option&gt;
-    &lt;option&gt;55&lt;/option&gt;
-    &lt;option&gt;56&lt;/option&gt;
-    &lt;option&gt;57&lt;/option&gt;
-    &lt;option&gt;58&lt;/option&gt;
-    &lt;option&gt;59&lt;/option&gt;
-    &lt;option&gt;60&lt;/option&gt;
-    &lt;option&gt;61&lt;/option&gt;
-    &lt;option&gt;62&lt;/option&gt;
-    &lt;option&gt;63&lt;/option&gt;
-    &lt;option&gt;64&lt;/option&gt;
-    &lt;option&gt;65&lt;/option&gt;
-    &lt;option&gt;66&lt;/option&gt;
-    &lt;option&gt;67&lt;/option&gt;
-    &lt;option&gt;68&lt;/option&gt;
-    &lt;option&gt;69&lt;/option&gt;
-    &lt;option&gt;70&lt;/option&gt;
-    &lt;option&gt;71&lt;/option&gt;
-    &lt;option&gt;72&lt;/option&gt;
-    &lt;option&gt;73&lt;/option&gt;
-    &lt;option&gt;74&lt;/option&gt;
-    &lt;option&gt;75&lt;/option&gt;
-    &lt;option&gt;76&lt;/option&gt;
-    &lt;option&gt;77&lt;/option&gt;
-    &lt;option&gt;78&lt;/option&gt;
-    &lt;option&gt;79&lt;/option&gt;
-    &lt;option&gt;80&lt;/option&gt;
-    &lt;/select&gt;
-
-齒輪2齒數:&lt;select name=N2&gt;
-     &lt;option&gt;15&lt;/option&gt;
-     &lt;option&gt;16&lt;/option&gt;
-    &lt;option&gt;17&lt;/option&gt;
-    &lt;option&gt;18&lt;/option&gt;
-    &lt;option&gt;19&lt;/option&gt;
-    &lt;option&gt;20&lt;/option&gt;
-    &lt;option&gt;21&lt;/option&gt;
-    &lt;option&gt;22&lt;/option&gt;
-    &lt;option&gt;23&lt;/option&gt;
-     &lt;option selected="true"&gt;24&lt;/option&gt;
-    &lt;option&gt;25&lt;/option&gt;
-    &lt;option&gt;26&lt;/option&gt;
-    &lt;option&gt;27&lt;/option&gt;
-    &lt;option&gt;28&lt;/option&gt;
-    &lt;option&gt;29&lt;/option&gt;
-    &lt;option&gt;30&lt;/option&gt;
-    &lt;option&gt;31&lt;/option&gt;
-    &lt;option&gt;32&lt;/option&gt;
-    &lt;option&gt;33&lt;/option&gt;
-    &lt;option&gt;34&lt;/option&gt;
-    &lt;option&gt;35&lt;/option&gt;
-    &lt;option&gt;36&lt;/option&gt;
-    &lt;option&gt;37&lt;/option&gt;
-    &lt;option&gt;38&lt;/option&gt;
-    &lt;option&gt;39&lt;/option&gt;
-    &lt;option&gt;40&lt;/option&gt;
-    &lt;option&gt;41&lt;/option&gt;
-    &lt;option&gt;42&lt;/option&gt;
-    &lt;option&gt;43&lt;/option&gt;
-    &lt;option&gt;44&lt;/option&gt;
-    &lt;option&gt;45&lt;/option&gt;
-    &lt;option&gt;46&lt;/option&gt;
-    &lt;option&gt;47&lt;/option&gt;
-    &lt;option&gt;48&lt;/option&gt;
-    &lt;option&gt;49&lt;/option&gt;
-    &lt;option&gt;50&lt;/option&gt;
-    &lt;option&gt;51&lt;/option&gt;
-    &lt;option&gt;52&lt;/option&gt;
-    &lt;option&gt;53&lt;/option&gt;
-    &lt;option&gt;54&lt;/option&gt;
-    &lt;option&gt;55&lt;/option&gt;
-    &lt;option&gt;56&lt;/option&gt;
-    &lt;option&gt;57&lt;/option&gt;
-    &lt;option&gt;58&lt;/option&gt;
-    &lt;option&gt;59&lt;/option&gt;
-    &lt;option&gt;60&lt;/option&gt;
-    &lt;option&gt;61&lt;/option&gt;
-    &lt;option&gt;62&lt;/option&gt;
-    &lt;option&gt;63&lt;/option&gt;
-    &lt;option&gt;64&lt;/option&gt;
-    &lt;option&gt;65&lt;/option&gt;
-    &lt;option&gt;66&lt;/option&gt;
-    &lt;option&gt;67&lt;/option&gt;
-    &lt;option&gt;68&lt;/option&gt;
-    &lt;option&gt;69&lt;/option&gt;
-    &lt;option&gt;70&lt;/option&gt;
-    &lt;option&gt;71&lt;/option&gt;
-    &lt;option&gt;72&lt;/option&gt;
-    &lt;option&gt;73&lt;/option&gt;
-    &lt;option&gt;74&lt;/option&gt;
-    &lt;option&gt;75&lt;/option&gt;
-    &lt;option&gt;76&lt;/option&gt;
-    &lt;option&gt;77&lt;/option&gt;
-    &lt;option&gt;78&lt;/option&gt;
-    &lt;option&gt;79&lt;/option&gt;
-    &lt;option&gt;80&lt;/option&gt;
-    &lt;/select&gt;
-齒輪3齒數:&lt;select name=N3&gt;
-     &lt;option selected="true"&gt;15&lt;/option&gt;
-     &lt;option&gt;16&lt;/option&gt;
-    &lt;option&gt;17&lt;/option&gt;
-    &lt;option&gt;18&lt;/option&gt;
-    &lt;option&gt;19&lt;/option&gt;
-    &lt;option&gt;20&lt;/option&gt;
-    &lt;option&gt;21&lt;/option&gt;
-    &lt;option&gt;22&lt;/option&gt;
-    &lt;option&gt;23&lt;/option&gt;
-    &lt;option&gt;24&lt;/option&gt;
-    &lt;option&gt;25&lt;/option&gt;
-    &lt;option&gt;26&lt;/option&gt;
-    &lt;option&gt;27&lt;/option&gt;
-    &lt;option&gt;28&lt;/option&gt;
-    &lt;option&gt;29&lt;/option&gt;
-    &lt;option&gt;30&lt;/option&gt;
-    &lt;option&gt;31&lt;/option&gt;
-    &lt;option&gt;32&lt;/option&gt;
-    &lt;option&gt;33&lt;/option&gt;
-    &lt;option&gt;34&lt;/option&gt;
-    &lt;option&gt;35&lt;/option&gt;
-    &lt;option&gt;36&lt;/option&gt;
-    &lt;option&gt;37&lt;/option&gt;
-    &lt;option&gt;38&lt;/option&gt;
-    &lt;option&gt;39&lt;/option&gt;
-    &lt;option&gt;40&lt;/option&gt;
-    &lt;option&gt;41&lt;/option&gt;
-    &lt;option&gt;42&lt;/option&gt;
-    &lt;option&gt;43&lt;/option&gt;
-    &lt;option&gt;44&lt;/option&gt;
-    &lt;option&gt;45&lt;/option&gt;
-    &lt;option&gt;46&lt;/option&gt;
-    &lt;option&gt;47&lt;/option&gt;
-    &lt;option&gt;48&lt;/option&gt;
-    &lt;option&gt;49&lt;/option&gt;
-    &lt;option&gt;50&lt;/option&gt;
-    &lt;option&gt;51&lt;/option&gt;
-    &lt;option&gt;52&lt;/option&gt;
-    &lt;option&gt;53&lt;/option&gt;
-    &lt;option&gt;54&lt;/option&gt;
-    &lt;option&gt;55&lt;/option&gt;
-    &lt;option&gt;56&lt;/option&gt;
-    &lt;option&gt;57&lt;/option&gt;
-    &lt;option&gt;58&lt;/option&gt;
-    &lt;option&gt;59&lt;/option&gt;
-    &lt;option&gt;60&lt;/option&gt;
-    &lt;option&gt;61&lt;/option&gt;
-    &lt;option&gt;62&lt;/option&gt;
-    &lt;option&gt;63&lt;/option&gt;
-    &lt;option&gt;64&lt;/option&gt;
-    &lt;option&gt;65&lt;/option&gt;
-    &lt;option&gt;66&lt;/option&gt;
-    &lt;option&gt;67&lt;/option&gt;
-    &lt;option&gt;68&lt;/option&gt;
-    &lt;option&gt;69&lt;/option&gt;
-    &lt;option&gt;70&lt;/option&gt;
-    &lt;option&gt;71&lt;/option&gt;
-    &lt;option&gt;72&lt;/option&gt;
-    &lt;option&gt;73&lt;/option&gt;
-    &lt;option&gt;74&lt;/option&gt;
-    &lt;option&gt;75&lt;/option&gt;
-    &lt;option&gt;76&lt;/option&gt;
-    &lt;option&gt;77&lt;/option&gt;
-    &lt;option&gt;78&lt;/option&gt;
-    &lt;option&gt;79&lt;/option&gt;
-    &lt;option&gt;80&lt;/option&gt;
-    &lt;/select&gt;
-齒輪4齒數:&lt;select name=N4&gt;
-     &lt;option&gt;15&lt;/option&gt;
-     &lt;option&gt;16&lt;/option&gt;
-    &lt;option&gt;17&lt;/option&gt;
-    &lt;option&gt;18&lt;/option&gt;
-    &lt;option&gt;19&lt;/option&gt;
-    &lt;option&gt;20&lt;/option&gt;
-    &lt;option&gt;21&lt;/option&gt;
-    &lt;option&gt;22&lt;/option&gt;
-    &lt;option&gt;23&lt;/option&gt;
-     &lt;option selected="true"&gt;24&lt;/option&gt;
-    &lt;option&gt;25&lt;/option&gt;
-    &lt;option&gt;26&lt;/option&gt;
-    &lt;option&gt;27&lt;/option&gt;
-    &lt;option&gt;28&lt;/option&gt;
-    &lt;option&gt;29&lt;/option&gt;
-    &lt;option&gt;30&lt;/option&gt;
-    &lt;option&gt;31&lt;/option&gt;
-    &lt;option&gt;32&lt;/option&gt;
-    &lt;option&gt;33&lt;/option&gt;
-    &lt;option&gt;34&lt;/option&gt;
-    &lt;option&gt;35&lt;/option&gt;
-    &lt;option&gt;36&lt;/option&gt;
-    &lt;option&gt;37&lt;/option&gt;
-    &lt;option&gt;38&lt;/option&gt;
-    &lt;option&gt;39&lt;/option&gt;
-    &lt;option&gt;40&lt;/option&gt;
-    &lt;option&gt;41&lt;/option&gt;
-    &lt;option&gt;42&lt;/option&gt;
-    &lt;option&gt;43&lt;/option&gt;
-    &lt;option&gt;44&lt;/option&gt;
-    &lt;option&gt;45&lt;/option&gt;
-    &lt;option&gt;46&lt;/option&gt;
-    &lt;option&gt;47&lt;/option&gt;
-    &lt;option&gt;48&lt;/option&gt;
-    &lt;option&gt;49&lt;/option&gt;
-    &lt;option&gt;50&lt;/option&gt;
-    &lt;option&gt;51&lt;/option&gt;
-    &lt;option&gt;52&lt;/option&gt;
-    &lt;option&gt;53&lt;/option&gt;
-    &lt;option&gt;54&lt;/option&gt;
-    &lt;option&gt;55&lt;/option&gt;
-    &lt;option&gt;56&lt;/option&gt;
-    &lt;option&gt;57&lt;/option&gt;
-    &lt;option&gt;58&lt;/option&gt;
-    &lt;option&gt;59&lt;/option&gt;
-    &lt;option&gt;60&lt;/option&gt;
-    &lt;option&gt;61&lt;/option&gt;
-    &lt;option&gt;62&lt;/option&gt;
-    &lt;option&gt;63&lt;/option&gt;
-    &lt;option&gt;64&lt;/option&gt;
-    &lt;option&gt;65&lt;/option&gt;
-    &lt;option&gt;66&lt;/option&gt;
-    &lt;option&gt;67&lt;/option&gt;
-    &lt;option&gt;68&lt;/option&gt;
-    &lt;option&gt;69&lt;/option&gt;
-    &lt;option&gt;70&lt;/option&gt;
-    &lt;option&gt;71&lt;/option&gt;
-    &lt;option&gt;72&lt;/option&gt;
-    &lt;option&gt;73&lt;/option&gt;
-    &lt;option&gt;74&lt;/option&gt;
-    &lt;option&gt;75&lt;/option&gt;
-    &lt;option&gt;76&lt;/option&gt;
-    &lt;option&gt;77&lt;/option&gt;
-    &lt;option&gt;78&lt;/option&gt;
-    &lt;option&gt;79&lt;/option&gt;
-    &lt;option&gt;80&lt;/option&gt;
-    &lt;/select&gt;
-&lt;input type=submit value=send&gt;
-&lt;/form&gt;
-
-&lt;!-- 以下為 canvas 畫圖程式 --&gt;
-&lt;script type="text/python"&gt;
-# 從 browser 導入 document
-from browser import document
-from math import *
-# 請注意, 這裡導入位於 Lib/site-packages 目錄下的 spur.py 檔案
-import spur
-
-# 準備在 id="plotarea" 的 canvas 中繪圖
-canvas = document["plotarea"]
-ctx = canvas.getContext("2d")
-
-# 以下利用 spur.py 程式進行繪圖, 接下來的協同設計運算必須要配合使用者的需求進行設計運算與繪圖
-# 其中並將工作分配給其他組員建立類似 spur.py 的相關零件繪圖模組
-# midx, midy 為齒輪圓心座標, rp 為節圓半徑, n 為齒數, pa 為壓力角, color 為線的顏色
-# Gear(midx, midy, rp, n=20, pa=20, color="black"):
-# 模數決定齒的尺寸大小, 囓合齒輪組必須有相同的模數與壓力角
-# 壓力角 pa 單位為角度
-pa ='''+str(P)+'''
-# m 為模數
-m = '''+str(M)+'''
-# 第1齒輪齒數
-n_g1 = '''+str(N1)+'''
-# 第2齒輪齒數
-n_g2 = '''+str(N2)+'''
-# 第3齒輪齒數
-n_g3 = '''+str(N3)+'''
-# 第4齒輪齒數
-n_g4 = '''+str(N4)+'''
-
-# 計算兩齒輪的節圓半徑
-rp_g1 = m*n_g1/2
-rp_g2 = m*n_g2/2
-rp_g3 = m*n_g3/2
-rp_g4 = m*n_g4/2
-
-# 繪圖第1齒輪的圓心座標
-x_g1 = 300
-y_g1 = 300
-# 第2齒輪的圓心座標, 假設排列成水平, 表示各齒輪圓心 y 座標相同
-x_g2 = x_g1 
-y_g2 = y_g1 + rp_g1 + rp_g2
-# 第3齒輪的圓心座標
-x_g3 = x_g2 + rp_g2+rp_g3
-y_g3 = y_g1 + rp_g1 + rp_g2
-# 第4齒輪的圓心座標
-x_g4 = x_g1 + rp_g2+rp_g3
-y_g4= y_g1 + rp_g1 + rp_g2+rp_g3+rp_g4
-
-# 將第1齒輪順時鐘轉 90 度
-# 使用 ctx.save() 與 ctx.restore() 以確保各齒輪以相對座標進行旋轉繪圖
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g1, y_g1)
-# rotate to engage
-ctx.rotate(pi)
-# put it back
-ctx.translate(-x_g1, -y_g1)
-spur.Spur(ctx).Gear(x_g1, y_g1, rp_g1, n_g1, pa, "blue")
-ctx.restore()
-
-# 將第2齒輪逆時鐘轉 90 度之後, 再多轉一齒, 以便與第1齒輪進行囓合
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g2, y_g2)
-# rotate to engage
-ctx.rotate(-pi/n_g2)
-# put it back
-ctx.translate(-x_g2, -y_g2)
-spur.Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "black")
-ctx.restore()
-
-# 將第3齒輪逆時鐘轉 90 度之後, 再往回轉第2齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g3, y_g3)
-ctx.rotate(-pi/2-pi/n_g3+(pi/2+pi/n_g2)*n_g2/n_g3)
-# put it back
-ctx.translate(-x_g3, -y_g3)
-spur.Spur(ctx).Gear(x_g3, y_g3, rp_g3, n_g3, pa, "red")
-ctx.restore()
-
-#齒輪4
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g4, y_g4)
-# rotate to engage
-ctx.rotate(-pi/n_g4+(-pi/2+pi/n_g3)*n_g3/n_g4-(pi/2+pi/n_g2)*n_g2/n_g4)
-# put it back
-ctx.translate(-x_g4, -y_g4)
-spur.Spur(ctx).Gear(x_g4, y_g4, rp_g4, n_g4, pa, "pink")
-ctx.restore()
-
-
-
-# 按照上面三個正齒輪的囓合轉角運算, 隨後的傳動齒輪轉角便可依此類推, 完成6個齒輪的囓合繪圖
-
-&lt;/script&gt;
-&lt;canvas id="plotarea" width="1200" height="1200"&gt;&lt;/canvas&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-'''
-
-    return outstring
-</t>
-<t tx=".20150628202948.1">@cherrypy.expose
-# N 為齒數, M 為模數, P 為壓力角
-def gear3(self , M=10, P=15,N1=15, N2=24,N3=15,N4=24 ,N5=15,N6=24):
-    outstring = '''
-&lt;!DOCTYPE html&gt; 
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
-&lt;!-- 載入 brython.js --&gt;
-&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
-&lt;script src="/static/Cango2D.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;script src="/static/gearUtils-04.js" type="text/javascript"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;!-- 啟動 brython() --&gt;
-&lt;body onload="brython()"&gt;
-&lt;form method=POST action=gear3&gt;
-模數:&lt;input type=text name=M&gt;&lt;br /&gt;
-壓力角:&lt;input type=text name=P&gt;&lt;br /&gt;
-齒輪1齒數:&lt;select name=N1&gt;
-     &lt;option selected="true"&gt;15&lt;/option&gt;
-     &lt;option&gt;16&lt;/option&gt;
-    &lt;option&gt;17&lt;/option&gt;
-    &lt;option&gt;18&lt;/option&gt;
-    &lt;option&gt;19&lt;/option&gt;
-    &lt;option&gt;20&lt;/option&gt;
-    &lt;option&gt;21&lt;/option&gt;
-    &lt;option&gt;22&lt;/option&gt;
-    &lt;option&gt;23&lt;/option&gt;
-    &lt;option&gt;24&lt;/option&gt;
-    &lt;option&gt;25&lt;/option&gt;
-    &lt;option&gt;26&lt;/option&gt;
-    &lt;option&gt;27&lt;/option&gt;
-    &lt;option&gt;28&lt;/option&gt;
-    &lt;option&gt;29&lt;/option&gt;
-    &lt;option&gt;30&lt;/option&gt;
-    &lt;option&gt;31&lt;/option&gt;
-    &lt;option&gt;32&lt;/option&gt;
-    &lt;option&gt;33&lt;/option&gt;
-    &lt;option&gt;34&lt;/option&gt;
-    &lt;option&gt;35&lt;/option&gt;
-    &lt;option&gt;36&lt;/option&gt;
-    &lt;option&gt;37&lt;/option&gt;
-    &lt;option&gt;38&lt;/option&gt;
-    &lt;option&gt;39&lt;/option&gt;
-    &lt;option&gt;40&lt;/option&gt;
-    &lt;option&gt;41&lt;/option&gt;
-    &lt;option&gt;42&lt;/option&gt;
-    &lt;option&gt;43&lt;/option&gt;
-    &lt;option&gt;44&lt;/option&gt;
-    &lt;option&gt;45&lt;/option&gt;
-    &lt;option&gt;46&lt;/option&gt;
-    &lt;option&gt;47&lt;/option&gt;
-    &lt;option&gt;48&lt;/option&gt;
-    &lt;option&gt;49&lt;/option&gt;
-    &lt;option&gt;50&lt;/option&gt;
-    &lt;option&gt;51&lt;/option&gt;
-    &lt;option&gt;52&lt;/option&gt;
-    &lt;option&gt;53&lt;/option&gt;
-    &lt;option&gt;54&lt;/option&gt;
-    &lt;option&gt;55&lt;/option&gt;
-    &lt;option&gt;56&lt;/option&gt;
-    &lt;option&gt;57&lt;/option&gt;
-    &lt;option&gt;58&lt;/option&gt;
-    &lt;option&gt;59&lt;/option&gt;
-    &lt;option&gt;60&lt;/option&gt;
-    &lt;option&gt;61&lt;/option&gt;
-    &lt;option&gt;62&lt;/option&gt;
-    &lt;option&gt;63&lt;/option&gt;
-    &lt;option&gt;64&lt;/option&gt;
-    &lt;option&gt;65&lt;/option&gt;
-    &lt;option&gt;66&lt;/option&gt;
-    &lt;option&gt;67&lt;/option&gt;
-    &lt;option&gt;68&lt;/option&gt;
-    &lt;option&gt;69&lt;/option&gt;
-    &lt;option&gt;70&lt;/option&gt;
-    &lt;option&gt;71&lt;/option&gt;
-    &lt;option&gt;72&lt;/option&gt;
-    &lt;option&gt;73&lt;/option&gt;
-    &lt;option&gt;74&lt;/option&gt;
-    &lt;option&gt;75&lt;/option&gt;
-    &lt;option&gt;76&lt;/option&gt;
-    &lt;option&gt;77&lt;/option&gt;
-    &lt;option&gt;78&lt;/option&gt;
-    &lt;option&gt;79&lt;/option&gt;
-    &lt;option&gt;80&lt;/option&gt;
-    &lt;/select&gt;
-
-齒輪2齒數:&lt;select name=N2&gt;
-     &lt;option&gt;15&lt;/option&gt;
-     &lt;option&gt;16&lt;/option&gt;
-    &lt;option&gt;17&lt;/option&gt;
-    &lt;option&gt;18&lt;/option&gt;
-    &lt;option&gt;19&lt;/option&gt;
-    &lt;option&gt;20&lt;/option&gt;
-    &lt;option&gt;21&lt;/option&gt;
-    &lt;option&gt;22&lt;/option&gt;
-    &lt;option&gt;23&lt;/option&gt;
-     &lt;option selected="true"&gt;24&lt;/option&gt;
-    &lt;option&gt;25&lt;/option&gt;
-    &lt;option&gt;26&lt;/option&gt;
-    &lt;option&gt;27&lt;/option&gt;
-    &lt;option&gt;28&lt;/option&gt;
-    &lt;option&gt;29&lt;/option&gt;
-    &lt;option&gt;30&lt;/option&gt;
-    &lt;option&gt;31&lt;/option&gt;
-    &lt;option&gt;32&lt;/option&gt;
-    &lt;option&gt;33&lt;/option&gt;
-    &lt;option&gt;34&lt;/option&gt;
-    &lt;option&gt;35&lt;/option&gt;
-    &lt;option&gt;36&lt;/option&gt;
-    &lt;option&gt;37&lt;/option&gt;
-    &lt;option&gt;38&lt;/option&gt;
-    &lt;option&gt;39&lt;/option&gt;
-    &lt;option&gt;40&lt;/option&gt;
-    &lt;option&gt;41&lt;/option&gt;
-    &lt;option&gt;42&lt;/option&gt;
-    &lt;option&gt;43&lt;/option&gt;
-    &lt;option&gt;44&lt;/option&gt;
-    &lt;option&gt;45&lt;/option&gt;
-    &lt;option&gt;46&lt;/option&gt;
-    &lt;option&gt;47&lt;/option&gt;
-    &lt;option&gt;48&lt;/option&gt;
-    &lt;option&gt;49&lt;/option&gt;
-    &lt;option&gt;50&lt;/option&gt;
-    &lt;option&gt;51&lt;/option&gt;
-    &lt;option&gt;52&lt;/option&gt;
-    &lt;option&gt;53&lt;/option&gt;
-    &lt;option&gt;54&lt;/option&gt;
-    &lt;option&gt;55&lt;/option&gt;
-    &lt;option&gt;56&lt;/option&gt;
-    &lt;option&gt;57&lt;/option&gt;
-    &lt;option&gt;58&lt;/option&gt;
-    &lt;option&gt;59&lt;/option&gt;
-    &lt;option&gt;60&lt;/option&gt;
-    &lt;option&gt;61&lt;/option&gt;
-    &lt;option&gt;62&lt;/option&gt;
-    &lt;option&gt;63&lt;/option&gt;
-    &lt;option&gt;64&lt;/option&gt;
-    &lt;option&gt;65&lt;/option&gt;
-    &lt;option&gt;66&lt;/option&gt;
-    &lt;option&gt;67&lt;/option&gt;
-    &lt;option&gt;68&lt;/option&gt;
-    &lt;option&gt;69&lt;/option&gt;
-    &lt;option&gt;70&lt;/option&gt;
-    &lt;option&gt;71&lt;/option&gt;
-    &lt;option&gt;72&lt;/option&gt;
-    &lt;option&gt;73&lt;/option&gt;
-    &lt;option&gt;74&lt;/option&gt;
-    &lt;option&gt;75&lt;/option&gt;
-    &lt;option&gt;76&lt;/option&gt;
-    &lt;option&gt;77&lt;/option&gt;
-    &lt;option&gt;78&lt;/option&gt;
-    &lt;option&gt;79&lt;/option&gt;
-    &lt;option&gt;80&lt;/option&gt;
-    &lt;/select&gt;
-齒輪3齒數:&lt;select name=N3&gt;
-     &lt;option selected="true"&gt;15&lt;/option&gt;
-     &lt;option&gt;16&lt;/option&gt;
-    &lt;option&gt;17&lt;/option&gt;
-    &lt;option&gt;18&lt;/option&gt;
-    &lt;option&gt;19&lt;/option&gt;
-    &lt;option&gt;20&lt;/option&gt;
-    &lt;option&gt;21&lt;/option&gt;
-    &lt;option&gt;22&lt;/option&gt;
-    &lt;option&gt;23&lt;/option&gt;
-    &lt;option&gt;24&lt;/option&gt;
-    &lt;option&gt;25&lt;/option&gt;
-    &lt;option&gt;26&lt;/option&gt;
-    &lt;option&gt;27&lt;/option&gt;
-    &lt;option&gt;28&lt;/option&gt;
-    &lt;option&gt;29&lt;/option&gt;
-    &lt;option&gt;30&lt;/option&gt;
-    &lt;option&gt;31&lt;/option&gt;
-    &lt;option&gt;32&lt;/option&gt;
-    &lt;option&gt;33&lt;/option&gt;
-    &lt;option&gt;34&lt;/option&gt;
-    &lt;option&gt;35&lt;/option&gt;
-    &lt;option&gt;36&lt;/option&gt;
-    &lt;option&gt;37&lt;/option&gt;
-    &lt;option&gt;38&lt;/option&gt;
-    &lt;option&gt;39&lt;/option&gt;
-    &lt;option&gt;40&lt;/option&gt;
-    &lt;option&gt;41&lt;/option&gt;
-    &lt;option&gt;42&lt;/option&gt;
-    &lt;option&gt;43&lt;/option&gt;
-    &lt;option&gt;44&lt;/option&gt;
-    &lt;option&gt;45&lt;/option&gt;
-    &lt;option&gt;46&lt;/option&gt;
-    &lt;option&gt;47&lt;/option&gt;
-    &lt;option&gt;48&lt;/option&gt;
-    &lt;option&gt;49&lt;/option&gt;
-    &lt;option&gt;50&lt;/option&gt;
-    &lt;option&gt;51&lt;/option&gt;
-    &lt;option&gt;52&lt;/option&gt;
-    &lt;option&gt;53&lt;/option&gt;
-    &lt;option&gt;54&lt;/option&gt;
-    &lt;option&gt;55&lt;/option&gt;
-    &lt;option&gt;56&lt;/option&gt;
-    &lt;option&gt;57&lt;/option&gt;
-    &lt;option&gt;58&lt;/option&gt;
-    &lt;option&gt;59&lt;/option&gt;
-    &lt;option&gt;60&lt;/option&gt;
-    &lt;option&gt;61&lt;/option&gt;
-    &lt;option&gt;62&lt;/option&gt;
-    &lt;option&gt;63&lt;/option&gt;
-    &lt;option&gt;64&lt;/option&gt;
-    &lt;option&gt;65&lt;/option&gt;
-    &lt;option&gt;66&lt;/option&gt;
-    &lt;option&gt;67&lt;/option&gt;
-    &lt;option&gt;68&lt;/option&gt;
-    &lt;option&gt;69&lt;/option&gt;
-    &lt;option&gt;70&lt;/option&gt;
-    &lt;option&gt;71&lt;/option&gt;
-    &lt;option&gt;72&lt;/option&gt;
-    &lt;option&gt;73&lt;/option&gt;
-    &lt;option&gt;74&lt;/option&gt;
-    &lt;option&gt;75&lt;/option&gt;
-    &lt;option&gt;76&lt;/option&gt;
-    &lt;option&gt;77&lt;/option&gt;
-    &lt;option&gt;78&lt;/option&gt;
-    &lt;option&gt;79&lt;/option&gt;
-    &lt;option&gt;80&lt;/option&gt;
-    &lt;/select&gt;
-齒輪4齒數:&lt;select name=N4&gt;
-     &lt;option&gt;15&lt;/option&gt;
-     &lt;option&gt;16&lt;/option&gt;
-    &lt;option&gt;17&lt;/option&gt;
-    &lt;option&gt;18&lt;/option&gt;
-    &lt;option&gt;19&lt;/option&gt;
-    &lt;option&gt;20&lt;/option&gt;
-    &lt;option&gt;21&lt;/option&gt;
-    &lt;option&gt;22&lt;/option&gt;
-    &lt;option&gt;23&lt;/option&gt;
-     &lt;option selected="true"&gt;24&lt;/option&gt;
-    &lt;option&gt;25&lt;/option&gt;
-    &lt;option&gt;26&lt;/option&gt;
-    &lt;option&gt;27&lt;/option&gt;
-    &lt;option&gt;28&lt;/option&gt;
-    &lt;option&gt;29&lt;/option&gt;
-    &lt;option&gt;30&lt;/option&gt;
-    &lt;option&gt;31&lt;/option&gt;
-    &lt;option&gt;32&lt;/option&gt;
-    &lt;option&gt;33&lt;/option&gt;
-    &lt;option&gt;34&lt;/option&gt;
-    &lt;option&gt;35&lt;/option&gt;
-    &lt;option&gt;36&lt;/option&gt;
-    &lt;option&gt;37&lt;/option&gt;
-    &lt;option&gt;38&lt;/option&gt;
-    &lt;option&gt;39&lt;/option&gt;
-    &lt;option&gt;40&lt;/option&gt;
-    &lt;option&gt;41&lt;/option&gt;
-    &lt;option&gt;42&lt;/option&gt;
-    &lt;option&gt;43&lt;/option&gt;
-    &lt;option&gt;44&lt;/option&gt;
-    &lt;option&gt;45&lt;/option&gt;
-    &lt;option&gt;46&lt;/option&gt;
-    &lt;option&gt;47&lt;/option&gt;
-    &lt;option&gt;48&lt;/option&gt;
-    &lt;option&gt;49&lt;/option&gt;
-    &lt;option&gt;50&lt;/option&gt;
-    &lt;option&gt;51&lt;/option&gt;
-    &lt;option&gt;52&lt;/option&gt;
-    &lt;option&gt;53&lt;/option&gt;
-    &lt;option&gt;54&lt;/option&gt;
-    &lt;option&gt;55&lt;/option&gt;
-    &lt;option&gt;56&lt;/option&gt;
-    &lt;option&gt;57&lt;/option&gt;
-    &lt;option&gt;58&lt;/option&gt;
-    &lt;option&gt;59&lt;/option&gt;
-    &lt;option&gt;60&lt;/option&gt;
-    &lt;option&gt;61&lt;/option&gt;
-    &lt;option&gt;62&lt;/option&gt;
-    &lt;option&gt;63&lt;/option&gt;
-    &lt;option&gt;64&lt;/option&gt;
-    &lt;option&gt;65&lt;/option&gt;
-    &lt;option&gt;66&lt;/option&gt;
-    &lt;option&gt;67&lt;/option&gt;
-    &lt;option&gt;68&lt;/option&gt;
-    &lt;option&gt;69&lt;/option&gt;
-    &lt;option&gt;70&lt;/option&gt;
-    &lt;option&gt;71&lt;/option&gt;
-    &lt;option&gt;72&lt;/option&gt;
-    &lt;option&gt;73&lt;/option&gt;
-    &lt;option&gt;74&lt;/option&gt;
-    &lt;option&gt;75&lt;/option&gt;
-    &lt;option&gt;76&lt;/option&gt;
-    &lt;option&gt;77&lt;/option&gt;
-    &lt;option&gt;78&lt;/option&gt;
-    &lt;option&gt;79&lt;/option&gt;
-    &lt;option&gt;80&lt;/option&gt;
-    &lt;/select&gt;
-齒輪5齒數:&lt;select name=N5&gt;
-     &lt;option selected="true"&gt;15&lt;/option&gt;
-     &lt;option&gt;16&lt;/option&gt;
-    &lt;option&gt;17&lt;/option&gt;
-    &lt;option&gt;18&lt;/option&gt;
-    &lt;option&gt;19&lt;/option&gt;
-    &lt;option&gt;20&lt;/option&gt;
-    &lt;option&gt;21&lt;/option&gt;
-    &lt;option&gt;22&lt;/option&gt;
-    &lt;option&gt;23&lt;/option&gt;
-     &lt;option&gt;24&lt;/option&gt;
-    &lt;option&gt;25&lt;/option&gt;
-    &lt;option&gt;26&lt;/option&gt;
-    &lt;option&gt;27&lt;/option&gt;
-    &lt;option&gt;28&lt;/option&gt;
-    &lt;option&gt;29&lt;/option&gt;
-    &lt;option&gt;30&lt;/option&gt;
-    &lt;option&gt;31&lt;/option&gt;
-    &lt;option&gt;32&lt;/option&gt;
-    &lt;option&gt;33&lt;/option&gt;
-    &lt;option&gt;34&lt;/option&gt;
-    &lt;option&gt;35&lt;/option&gt;
-    &lt;option&gt;36&lt;/option&gt;
-    &lt;option&gt;37&lt;/option&gt;
-    &lt;option&gt;38&lt;/option&gt;
-    &lt;option&gt;39&lt;/option&gt;
-    &lt;option&gt;40&lt;/option&gt;
-    &lt;option&gt;41&lt;/option&gt;
-    &lt;option&gt;42&lt;/option&gt;
-    &lt;option&gt;43&lt;/option&gt;
-    &lt;option&gt;44&lt;/option&gt;
-    &lt;option&gt;45&lt;/option&gt;
-    &lt;option&gt;46&lt;/option&gt;
-    &lt;option&gt;47&lt;/option&gt;
-    &lt;option&gt;48&lt;/option&gt;
-    &lt;option&gt;49&lt;/option&gt;
-    &lt;option&gt;50&lt;/option&gt;
-    &lt;option&gt;51&lt;/option&gt;
-    &lt;option&gt;52&lt;/option&gt;
-    &lt;option&gt;53&lt;/option&gt;
-    &lt;option&gt;54&lt;/option&gt;
-    &lt;option&gt;55&lt;/option&gt;
-    &lt;option&gt;56&lt;/option&gt;
-    &lt;option&gt;57&lt;/option&gt;
-    &lt;option&gt;58&lt;/option&gt;
-    &lt;option&gt;59&lt;/option&gt;
-    &lt;option&gt;60&lt;/option&gt;
-    &lt;option&gt;61&lt;/option&gt;
-    &lt;option&gt;62&lt;/option&gt;
-    &lt;option&gt;63&lt;/option&gt;
-    &lt;option&gt;64&lt;/option&gt;
-    &lt;option&gt;65&lt;/option&gt;
-    &lt;option&gt;66&lt;/option&gt;
-    &lt;option&gt;67&lt;/option&gt;
-    &lt;option&gt;68&lt;/option&gt;
-    &lt;option&gt;69&lt;/option&gt;
-    &lt;option&gt;70&lt;/option&gt;
-    &lt;option&gt;71&lt;/option&gt;
-    &lt;option&gt;72&lt;/option&gt;
-    &lt;option&gt;73&lt;/option&gt;
-    &lt;option&gt;74&lt;/option&gt;
-    &lt;option&gt;75&lt;/option&gt;
-    &lt;option&gt;76&lt;/option&gt;
-    &lt;option&gt;77&lt;/option&gt;
-    &lt;option&gt;78&lt;/option&gt;
-    &lt;option&gt;79&lt;/option&gt;
-    &lt;option&gt;80&lt;/option&gt;
-    &lt;/select&gt;
-齒輪6齒數:&lt;select name=N6&gt;
-     &lt;option&gt;15&lt;/option&gt;
-     &lt;option&gt;16&lt;/option&gt;
-    &lt;option&gt;17&lt;/option&gt;
-    &lt;option&gt;18&lt;/option&gt;
-    &lt;option&gt;19&lt;/option&gt;
-    &lt;option&gt;20&lt;/option&gt;
-    &lt;option&gt;21&lt;/option&gt;
-    &lt;option&gt;22&lt;/option&gt;
-    &lt;option&gt;23&lt;/option&gt;
-     &lt;option selected="true"&gt;24&lt;/option&gt;
-    &lt;option&gt;25&lt;/option&gt;
-    &lt;option&gt;26&lt;/option&gt;
-    &lt;option&gt;27&lt;/option&gt;
-    &lt;option&gt;28&lt;/option&gt;
-    &lt;option&gt;29&lt;/option&gt;
-    &lt;option&gt;30&lt;/option&gt;
-    &lt;option&gt;31&lt;/option&gt;
-    &lt;option&gt;32&lt;/option&gt;
-    &lt;option&gt;33&lt;/option&gt;
-    &lt;option&gt;34&lt;/option&gt;
-    &lt;option&gt;35&lt;/option&gt;
-    &lt;option&gt;36&lt;/option&gt;
-    &lt;option&gt;37&lt;/option&gt;
-    &lt;option&gt;38&lt;/option&gt;
-    &lt;option&gt;39&lt;/option&gt;
-    &lt;option&gt;40&lt;/option&gt;
-    &lt;option&gt;41&lt;/option&gt;
-    &lt;option&gt;42&lt;/option&gt;
-    &lt;option&gt;43&lt;/option&gt;
-    &lt;option&gt;44&lt;/option&gt;
-    &lt;option&gt;45&lt;/option&gt;
-    &lt;option&gt;46&lt;/option&gt;
-    &lt;option&gt;47&lt;/option&gt;
-    &lt;option&gt;48&lt;/option&gt;
-    &lt;option&gt;49&lt;/option&gt;
-    &lt;option&gt;50&lt;/option&gt;
-    &lt;option&gt;51&lt;/option&gt;
-    &lt;option&gt;52&lt;/option&gt;
-    &lt;option&gt;53&lt;/option&gt;
-    &lt;option&gt;54&lt;/option&gt;
-    &lt;option&gt;55&lt;/option&gt;
-    &lt;option&gt;56&lt;/option&gt;
-    &lt;option&gt;57&lt;/option&gt;
-    &lt;option&gt;58&lt;/option&gt;
-    &lt;option&gt;59&lt;/option&gt;
-    &lt;option&gt;60&lt;/option&gt;
-    &lt;option&gt;61&lt;/option&gt;
-    &lt;option&gt;62&lt;/option&gt;
-    &lt;option&gt;63&lt;/option&gt;
-    &lt;option&gt;64&lt;/option&gt;
-    &lt;option&gt;65&lt;/option&gt;
-    &lt;option&gt;66&lt;/option&gt;
-    &lt;option&gt;67&lt;/option&gt;
-    &lt;option&gt;68&lt;/option&gt;
-    &lt;option&gt;69&lt;/option&gt;
-    &lt;option&gt;70&lt;/option&gt;
-    &lt;option&gt;71&lt;/option&gt;
-    &lt;option&gt;72&lt;/option&gt;
-    &lt;option&gt;73&lt;/option&gt;
-    &lt;option&gt;74&lt;/option&gt;
-    &lt;option&gt;75&lt;/option&gt;
-    &lt;option&gt;76&lt;/option&gt;
-    &lt;option&gt;77&lt;/option&gt;
-    &lt;option&gt;78&lt;/option&gt;
-    &lt;option&gt;79&lt;/option&gt;
-    &lt;option&gt;80&lt;/option&gt;
-    &lt;/select&gt;
-&lt;input type=submit value=send&gt;
-&lt;/form&gt;
-
-&lt;!-- 以下為 canvas 畫圖程式 --&gt;
-&lt;script type="text/python"&gt;
-# 從 browser 導入 document
-from browser import document
-from math import *
-# 請注意, 這裡導入位於 Lib/site-packages 目錄下的 spur.py 檔案
-import spur
-
-# 準備在 id="plotarea" 的 canvas 中繪圖
-canvas = document["plotarea"]
-ctx = canvas.getContext("2d")
-
-# 以下利用 spur.py 程式進行繪圖, 接下來的協同設計運算必須要配合使用者的需求進行設計運算與繪圖
-# 其中並將工作分配給其他組員建立類似 spur.py 的相關零件繪圖模組
-# midx, midy 為齒輪圓心座標, rp 為節圓半徑, n 為齒數, pa 為壓力角, color 為線的顏色
-# Gear(midx, midy, rp, n=20, pa=20, color="black"):
-# 模數決定齒的尺寸大小, 囓合齒輪組必須有相同的模數與壓力角
-# 壓力角 pa 單位為角度
-pa ='''+str(P)+'''
-# m 為模數
-m = '''+str(M)+'''
-# 第1齒輪齒數
-n_g1 = '''+str(N1)+'''
-# 第2齒輪齒數
-n_g2 = '''+str(N2)+'''
-# 第3齒輪齒數
-n_g3 = '''+str(N3)+'''
-# 第4齒輪齒數
-n_g4 = '''+str(N4)+'''
-# 第5齒輪齒數
-n_g5 = '''+str(N5)+'''
-# 第5齒輪齒數
-n_g6 = '''+str(N6)+'''
-
-# 計算兩齒輪的節圓半徑
-rp_g1 = m*n_g1/2
-rp_g2 = m*n_g2/2
-rp_g3 = m*n_g3/2
-rp_g4 = m*n_g4/2
-rp_g5 = m*n_g5/2
-rp_g6 = m*n_g6/2
-# 繪圖第1齒輪的圓心座標
-x_g1 = 300
-y_g1 = 300
-# 第2齒輪的圓心座標, 假設排列成水平, 表示各齒輪圓心 y 座標相同
-x_g2 = x_g1 
-y_g2 = y_g1 + rp_g1 + rp_g2
-# 第3齒輪的圓心座標
-x_g3 = x_g2 + rp_g2+rp_g3
-y_g3 = y_g1 + rp_g1 + rp_g2
-# 第4齒輪的圓心座標
-x_g4 = x_g1 + rp_g2+rp_g3
-y_g4= y_g1 + rp_g1 + rp_g2+rp_g3+rp_g4
-# 第5齒輪的圓心座標
-x_g5 = x_g1+ rp_g2+rp_g3+rp_g4+rp_g5
-y_g5= y_g1+ rp_g1 + rp_g2 + rp_g3+rp_g4
-# 第6齒輪的圓心座標
-x_g6 = x_g1+ rp_g2+rp_g3+rp_g4+rp_g5
-y_g6= y_g1+ rp_g1 + rp_g2 + rp_g3+rp_g4+rp_g5+rp_g6
-
-# 將第1齒輪順時鐘轉 90 度
-# 使用 ctx.save() 與 ctx.restore() 以確保各齒輪以相對座標進行旋轉繪圖
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g1, y_g1)
-# rotate to engage
-ctx.rotate(pi)
-# put it back
-ctx.translate(-x_g1, -y_g1)
-spur.Spur(ctx).Gear(x_g1, y_g1, rp_g1, n_g1, pa, "blue")
-ctx.restore()
-
-# 將第2齒輪逆時鐘轉 90 度之後, 再多轉一齒, 以便與第1齒輪進行囓合
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g2, y_g2)
-# rotate to engage
-ctx.rotate(-pi/n_g2)
-# put it back
-ctx.translate(-x_g2, -y_g2)
-spur.Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "black")
-ctx.restore()
-
-# 將第3齒輪逆時鐘轉 90 度之後, 再往回轉第2齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g3, y_g3)
-ctx.rotate(-pi/2-pi/n_g3+(pi/2+pi/n_g2)*n_g2/n_g3)
-# put it back
-ctx.translate(-x_g3, -y_g3)
-spur.Spur(ctx).Gear(x_g3, y_g3, rp_g3, n_g3, pa, "red")
-ctx.restore()
-
-#齒輪4
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g4, y_g4)
-# rotate to engage
-ctx.rotate(-pi/n_g4+(-pi/2+pi/n_g3)*n_g3/n_g4-(pi/2+pi/n_g2)*n_g2/n_g4)
-# put it back
-ctx.translate(-x_g4, -y_g4)
-spur.Spur(ctx).Gear(x_g4, y_g4, rp_g4, n_g4, pa, "pink")
-ctx.restore()
-
-#齒輪5
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g5, y_g5)
-# rotate to engage
-ctx.rotate(-pi/n_g5-pi/n_g5+(pi+pi/n_g4)*n_g4/n_g5-(pi+pi/n_g3)*n_g3/n_g5+(pi+pi/n_g2)*n_g2/n_g5)
-# put it back
-ctx.translate(-x_g5, -y_g5)
-spur.Spur(ctx).Gear(x_g5, y_g5, rp_g5, n_g5, pa, "yellow")
-ctx.restore()
-
-#齒輪6
-ctx.save()
-# translate to the origin of second gear
-ctx.translate(x_g6, y_g6)
-# rotate to engage
-ctx.rotate(-pi/n_g6-pi/n_g6+(pi+pi/n_g5)*n_g5/n_g6-
-(pi+pi/n_g4)*n_g4/n_g6+(pi+pi/n_g3)*n_g3/n_g6- (pi+pi/n_g2)*n_g2/n_g6)
-# put it back
-ctx.translate(-x_g6, -y_g6)
-spur.Spur(ctx).Gear(x_g6, y_g6, rp_g6, n_g6, pa, "green")
-ctx.restore()
-
-
-# 按照上面三個正齒輪的囓合轉角運算, 隨後的傳動齒輪轉角便可依此類推, 完成6個齒輪的囓合繪圖
-
-&lt;/script&gt;
-&lt;canvas id="plotarea" width="1200" height="1200"&gt;&lt;/canvas&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-'''
-
-    return outstring
-</t>
 <t tx="2014fall.20141212095015.1774"></t>
 <t tx="2014fall.20141212095015.1775"># coding=utf-8
 # 上面的程式內容編碼必須在程式的第一或者第二行才會有作用
@@ -2502,6 +1000,532 @@ def gear(midx, midy, rp, n, 顏色):
 gear(400,400,300,41,"blue")
 &lt;/script&gt;
 &lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+
+    return outstring
+</t>
+<t tx="2015.20150428191028.1815">@cherrypy.expose
+# N 為齒數, M 為模數, P 為壓力角
+def mygeartest2(self , M=15, P=15,N1=7, N2=9,N3=11,N4=13,N5=15 ,N6=17):
+    outstring = '''
+&lt;!DOCTYPE html&gt; 
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
+&lt;!-- 載入 brython.js --&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script src="/static/Cango2D.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="/static/gearUtils-04.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;!-- 啟動 brython() --&gt;
+&lt;body onload="brython()"&gt;
+&lt;form method=POST action=mygeartest2&gt;
+模數:&lt;input type=text name=M&gt;&lt;br /&gt;
+壓力角:&lt;input type=text name=P&gt;&lt;br /&gt;
+齒輪1齒數:&lt;input type=text name=N1&gt;&lt;br /&gt;
+齒輪2齒數:&lt;input type=text name=N2&gt;&lt;br /&gt;
+齒輪3齒數:&lt;input type=text name=N3&gt;&lt;br /&gt;
+齒輪4齒數:&lt;input type=text name=N4&gt;&lt;br /&gt;
+齒輪5齒數:&lt;input type=text name=N5&gt;&lt;br /&gt;
+齒輪6齒數:&lt;input type=text name=N6&gt;&lt;br /&gt;
+&lt;input type=submit value=send&gt;
+&lt;/form&gt;
+
+&lt;!-- 以下為 canvas 畫圖程式 --&gt;
+&lt;script type="text/python"&gt;
+# 從 browser 導入 document
+from browser import document
+from math import *
+# 請注意, 這裡導入位於 Lib/site-packages 目錄下的 spur.py 檔案
+import spur
+
+# 準備在 id="plotarea" 的 canvas 中繪圖
+canvas = document["plotarea"]
+ctx = canvas.getContext("2d")
+
+# 以下利用 spur.py 程式進行繪圖, 接下來的協同設計運算必須要配合使用者的需求進行設計運算與繪圖
+# 其中並將工作分配給其他組員建立類似 spur.py 的相關零件繪圖模組
+# midx, midy 為齒輪圓心座標, rp 為節圓半徑, n 為齒數, pa 為壓力角, color 為線的顏色
+# Gear(midx, midy, rp, n=20, pa=20, color="black"):
+# 模數決定齒的尺寸大小, 囓合齒輪組必須有相同的模數與壓力角
+# 壓力角 pa 單位為角度
+pa ='''+str(P)+'''
+# m 為模數
+m = '''+str(M)+'''
+# 第1齒輪齒數
+n_g1 = '''+str(N1)+'''
+# 第2齒輪齒數
+n_g2 = '''+str(N2)+'''
+# 第3齒輪齒數
+n_g3 = '''+str(N3)+'''
+# 第4齒輪齒數
+n_g4 = '''+str(N4)+'''
+# 第5齒輪齒數
+n_g5 = '''+str(N5)+'''
+# 第5齒輪齒數
+n_g6 = '''+str(N6)+'''
+# 計算兩齒輪的節圓半徑
+rp_g1 = m*n_g1/2
+rp_g2 = m*n_g2/2
+rp_g3 = m*n_g3/2
+rp_g4 = m*n_g4/2
+rp_g5 = m*n_g5/2
+rp_g6 = m*n_g6/2
+# 繪圖第1齒輪的圓心座標
+x_g1 = 200
+y_g1 = 200
+# 第2齒輪的圓心座標, 假設排列成水平, 表示各齒輪圓心 y 座標相同
+x_g2 = x_g1 + rp_g1 + rp_g2
+y_g2 = y_g1
+# 第3齒輪的圓心座標
+x_g3 = x_g1 + rp_g1 + 2*rp_g2 + rp_g3
+y_g3 = y_g1
+# 第4齒輪的圓心座標
+x_g4 = x_g1 + rp_g1 + 2*rp_g2 +2* rp_g3+rp_g4
+y_g4= y_g1
+# 第5齒輪的圓心座標
+x_g5 = x_g1+ rp_g1 + 2*rp_g2 +2* rp_g3+2*rp_g4+rp_g5
+y_g5= y_g1
+# 第6齒輪的圓心座標
+x_g6 = x_g1+ rp_g1 + 2*rp_g2 +2* rp_g3+2*rp_g4+2*rp_g5+rp_g6
+y_g6= y_g1
+
+# 將第1齒輪順時鐘轉 90 度
+# 使用 ctx.save() 與 ctx.restore() 以確保各齒輪以相對座標進行旋轉繪圖
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g1, y_g1)
+# rotate to engage
+ctx.rotate(pi/2)
+# put it back
+ctx.translate(-x_g1, -y_g1)
+spur.Spur(ctx).Gear(x_g1, y_g1, rp_g1, n_g1, pa, "blue")
+ctx.restore()
+
+# 將第2齒輪逆時鐘轉 90 度之後, 再多轉一齒, 以便與第1齒輪進行囓合
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g2, y_g2)
+# rotate to engage
+ctx.rotate(-pi/2-pi/n_g2)
+# put it back
+ctx.translate(-x_g2, -y_g2)
+spur.Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "black")
+ctx.restore()
+
+# 將第3齒輪逆時鐘轉 90 度之後, 再往回轉第2齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g3, y_g3)
+# rotate to engage
+# pi+pi/n_g2 為第2齒輪從順時鐘轉 90 度之後, 必須配合目前的標記線所作的齒輪 2 轉動角度, 要轉換到齒輪3 的轉動角度
+# 必須乘上兩齒輪齒數的比例, 若齒輪2 大, 則齒輪3 會轉動較快
+# 第1個 -pi/2 為將原先垂直的第3齒輪定位線逆時鐘旋轉 90 度
+# -pi/n_g3 則是第3齒與第2齒定位線重合後, 必須再逆時鐘多轉一齒的轉角, 以便進行囓合
+# (pi+pi/n_g2)*n_g2/n_g3 則是第2齒原定位線為順時鐘轉動 90 度, 
+# 但是第2齒輪為了與第1齒輪囓合, 已經距離定位線, 多轉了 180 度, 再加上第2齒輪的一齒角度, 因為要帶動第3齒輪定位, 
+# 這個修正角度必須要再配合第2齒與第3齒的轉速比加以轉換成第3齒輪的轉角, 因此乘上 n_g2/n_g3
+ctx.rotate(-pi/2-pi/n_g3+(pi+pi/n_g2)*n_g2/n_g3)
+# put it back
+ctx.translate(-x_g3, -y_g3)
+spur.Spur(ctx).Gear(x_g3, y_g3, rp_g3, n_g3, pa, "red")
+ctx.restore()
+
+#齒輪4
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g4, y_g4)
+# rotate to engage
+ctx.rotate(-pi/2-pi/n_g4+(pi+pi/n_g3)*n_g3/n_g4-(pi+pi/n_g2)*n_g2/n_g4)
+# put it back
+ctx.translate(-x_g4, -y_g4)
+spur.Spur(ctx).Gear(x_g4, y_g4, rp_g4, n_g4, pa, "pink")
+ctx.restore()
+
+#齒輪5
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g5, y_g5)
+# rotate to engage
+ctx.rotate(-pi/n_g5+(pi+pi/n_g4)*n_g4/n_g5-(pi+pi/n_g3)*n_g3/n_g5+(pi+pi/n_g2)*n_g2/n_g5)
+# put it back
+ctx.translate(-x_g5, -y_g5)
+spur.Spur(ctx).Gear(x_g5, y_g5, rp_g5, n_g5, pa, "yellow")
+ctx.restore()
+
+#齒輪6
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g6, y_g6)
+# rotate to engage
+ctx.rotate(-pi/2-pi/n_g6+(pi+pi/n_g5)*n_g5/n_g6-
+(pi+pi/n_g4)*n_g4/n_g6+(pi+pi/n_g3)*n_g3/n_g6- (pi+pi/n_g2)*n_g2/n_g6)
+# put it back
+ctx.translate(-x_g6, -y_g6)
+spur.Spur(ctx).Gear(x_g6, y_g6, rp_g6, n_g6, pa, "pruple")
+ctx.restore()
+
+
+# 按照上面三個正齒輪的囓合轉角運算, 隨後的傳動齒輪轉角便可依此類推, 完成6個齒輪的囓合繪圖
+
+&lt;/script&gt;
+&lt;canvas id="plotarea" width="2500" height="1500"&gt;&lt;/canvas&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+
+    return outstring
+</t>
+<t tx="2015.20150428191028.1819"></t>
+<t tx="2015.20150519112521.1">@cherrypy.expose
+def index(self, guess=None):
+     outstring = '''
+&lt;!DOCTYPE html&gt; 
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
+&lt;/head&gt;
+        &lt;body&gt;
+        40223108&lt;br /&gt;
+        &lt;a href="gear1"&gt;各人齒輪嚙合&lt;/a&gt;&lt;br /&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+ '''
+</t>
+<t tx="2015.20150526102341.1"></t>
+<t tx="2015.20150526102414.1"></t>
+<t tx="2015.20150526102651.1"></t>
+<t tx="2015.20150526102704.1"></t>
+<t tx="2015.20150526103145.1"></t>
+<t tx="2015.20150526103155.1">import struct
+normals = []
+points = []
+triangles = []
+triangle_number = 0
+def load_binary_stl(fp):
+    '''
+    二位元 STL 檔案格式如下:
+    檔案標頭共有 80 個字元(bytes), 內容通常省略, 但是內容不可使用 solid, 以免與文字檔案 STL 混淆
+    UINT8[80] – Header
+    UINT32 – Number of triangles (I:佔 4 bytes 的 unsigned integer)
+      
+    foreach triangle
+    REAL32[3] – Normal vector (f:每一座標分量為一佔 4 bytes 的 float, 共佔 12 bytes)
+    REAL32[3] – Vertex 1
+    REAL32[3] – Vertex 2
+    REAL32[3] – Vertex 3
+    UINT16 – Attribute byte count (H:兩個 bytes 的 unsigned short, 表示 attribute byte count)
+    end
+      
+    '''
+    # 已經在外部開檔
+    #fp=open(filename,'rb')
+    header=fp.read(80)
+    triangle_number = struct.unpack('I',fp.read(4))[0]
+    #print(triangle_number)
+    count=0
+    while True:
+        try:
+            p=fp.read(12)
+            if len(p)==12:
+                n=[struct.unpack('f',p[0:4])[0],struct.unpack('f',p[4:8])[0],struct.unpack('f',p[8:12])[0]]
+                normals.append(n)
+                l = len(points)
+                #print(n)
+            p=fp.read(12)
+            if len(p)==12:
+                p1=[struct.unpack('f',p[0:4])[0],struct.unpack('f',p[4:8])[0],struct.unpack('f',p[8:12])[0]]
+                points.append(p1)
+                #print(p1)
+            p=fp.read(12)
+            if len(p)==12:
+                p2=[struct.unpack('f',p[0:4])[0],struct.unpack('f',p[4:8])[0],struct.unpack('f',p[8:12])[0]]
+                points.append(p2)
+            p=fp.read(12)
+            if len(p)==12:
+                p3=[struct.unpack('f',p[0:4])[0],struct.unpack('f',p[4:8])[0],struct.unpack('f',p[8:12])[0]]
+                points.append(p3)
+                triangles.append((l, l+1, l+2))
+            # 使用 count 來計算三角形平面個數
+            # triangle_number 為 STL 檔案中的三角形個數
+            count += 1
+            #print(count)
+            # 在前面 12*4 個 bytes 的 normal 與三個點資料後, 為
+            # 一個 2 bytes 長的 unsigned short, 其值為零, 為 attribute
+            fp.read(2)
+            # 讀完所有三角平面後, 即跳出 while
+            if count &gt; triangle_number:
+                break
+        except EOFError:
+            break
+    #fp.close()
+def read_length(f):
+    length = struct.unpack("@i", f.read(4))
+    return length[0]
+def read_header(f):
+    f.seek(f.tell()+80)
+def write_as_ascii(outfilename):
+    f = open(outfilename, "w")
+    f.write ("solid "+outfilename+"\n")
+    for n  in range(len(triangles)):
+        f.write ("facet normal {} {} {}\n".format(normals[n][0],normals[n][1],normals[n][2]))
+        f.write ("outer loop\n")
+        f.write ("vertex {} {} {}\n".format(points[triangles[n][0]][0],points[triangles[n][0]][1],points[triangles[n][0]][2]))
+        f.write ("vertex {} {} {}\n".format(points[triangles[n][1]][0],points[triangles[n][1]][1],points[triangles[n][1]][2]))
+        f.write ("vertex {} {} {}\n".format(points[triangles[n][2]][0],points[triangles[n][2]][1],points[triangles[n][2]][2]))
+        f.write ("endloop\n")
+        f.write ("endfacet\n")
+    f.write ("endsolid "+outfilename+"\n")
+    f.close()
+def main():
+    infilename = "spikeball_bin.stl"
+    outfilename = "spikeball_ascii.stl"
+    try:
+        f = open(infilename, "rb")
+        #read_header(f)
+        #l = read_length(f)
+        try:
+            load_binary_stl(f)
+            l = len(normals)
+        except Exception as e:
+            print("Exception",e)
+        print(len(normals), len(points), len(triangles), l)
+        write_as_ascii(outfilename)
+        print("done")
+    except Exception as e:
+        print(e)
+if __name__ == '__main__':
+    main()</t>
+<t tx="2015.20150628202851.1">@cherrypy.expose
+# N 為齒數, M 為模數, P 為壓力角
+def gear1(self , M=5, P=15,N1=15, N2=24 ):
+    outstring = '''
+&lt;!DOCTYPE html&gt; 
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
+&lt;!-- 載入 brython.js --&gt;
+&lt;script type="text/javascript" src="/static/Brython3.1.1-20150328-091302/brython.js"&gt;&lt;/script&gt;
+&lt;script src="/static/Cango2D.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="/static/gearUtils-04.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;!-- 啟動 brython() --&gt;
+&lt;body onload="brython()"&gt;
+&lt;form method=POST action=gear1&gt;
+模數:&lt;input type=text name=M&gt;&lt;br /&gt;
+壓力角:&lt;input type=text name=P&gt;&lt;br /&gt;
+齒輪1齒數:&lt;select name=N1&gt;
+     &lt;option selected="true"&gt;15&lt;/option&gt;
+     &lt;option&gt;16&lt;/option&gt;
+    &lt;option&gt;17&lt;/option&gt;
+    &lt;option&gt;18&lt;/option&gt;
+    &lt;option&gt;19&lt;/option&gt;
+    &lt;option&gt;20&lt;/option&gt;
+    &lt;option&gt;21&lt;/option&gt;
+    &lt;option&gt;22&lt;/option&gt;
+    &lt;option&gt;23&lt;/option&gt;
+    &lt;option&gt;24&lt;/option&gt;
+    &lt;option&gt;25&lt;/option&gt;
+    &lt;option&gt;26&lt;/option&gt;
+    &lt;option&gt;27&lt;/option&gt;
+    &lt;option&gt;28&lt;/option&gt;
+    &lt;option&gt;29&lt;/option&gt;
+    &lt;option&gt;30&lt;/option&gt;
+    &lt;option&gt;31&lt;/option&gt;
+    &lt;option&gt;32&lt;/option&gt;
+    &lt;option&gt;33&lt;/option&gt;
+    &lt;option&gt;34&lt;/option&gt;
+    &lt;option&gt;35&lt;/option&gt;
+    &lt;option&gt;36&lt;/option&gt;
+    &lt;option&gt;37&lt;/option&gt;
+    &lt;option&gt;38&lt;/option&gt;
+    &lt;option&gt;39&lt;/option&gt;
+    &lt;option&gt;40&lt;/option&gt;
+    &lt;option&gt;41&lt;/option&gt;
+    &lt;option&gt;42&lt;/option&gt;
+    &lt;option&gt;43&lt;/option&gt;
+    &lt;option&gt;44&lt;/option&gt;
+    &lt;option&gt;45&lt;/option&gt;
+    &lt;option&gt;46&lt;/option&gt;
+    &lt;option&gt;47&lt;/option&gt;
+    &lt;option&gt;48&lt;/option&gt;
+    &lt;option&gt;49&lt;/option&gt;
+    &lt;option&gt;50&lt;/option&gt;
+    &lt;option&gt;51&lt;/option&gt;
+    &lt;option&gt;52&lt;/option&gt;
+    &lt;option&gt;53&lt;/option&gt;
+    &lt;option&gt;54&lt;/option&gt;
+    &lt;option&gt;55&lt;/option&gt;
+    &lt;option&gt;56&lt;/option&gt;
+    &lt;option&gt;57&lt;/option&gt;
+    &lt;option&gt;58&lt;/option&gt;
+    &lt;option&gt;59&lt;/option&gt;
+    &lt;option&gt;60&lt;/option&gt;
+    &lt;option&gt;61&lt;/option&gt;
+    &lt;option&gt;62&lt;/option&gt;
+    &lt;option&gt;63&lt;/option&gt;
+    &lt;option&gt;64&lt;/option&gt;
+    &lt;option&gt;65&lt;/option&gt;
+    &lt;option&gt;66&lt;/option&gt;
+    &lt;option&gt;67&lt;/option&gt;
+    &lt;option&gt;68&lt;/option&gt;
+    &lt;option&gt;69&lt;/option&gt;
+    &lt;option&gt;70&lt;/option&gt;
+    &lt;option&gt;71&lt;/option&gt;
+    &lt;option&gt;72&lt;/option&gt;
+    &lt;option&gt;73&lt;/option&gt;
+    &lt;option&gt;74&lt;/option&gt;
+    &lt;option&gt;75&lt;/option&gt;
+    &lt;option&gt;76&lt;/option&gt;
+    &lt;option&gt;77&lt;/option&gt;
+    &lt;option&gt;78&lt;/option&gt;
+    &lt;option&gt;79&lt;/option&gt;
+    &lt;option&gt;80&lt;/option&gt;
+    &lt;/select&gt;
+
+齒輪2齒數:&lt;select name=N2&gt;
+     &lt;option&gt;15&lt;/option&gt;
+     &lt;option&gt;16&lt;/option&gt;
+    &lt;option&gt;17&lt;/option&gt;
+    &lt;option&gt;18&lt;/option&gt;
+    &lt;option&gt;19&lt;/option&gt;
+    &lt;option&gt;20&lt;/option&gt;
+    &lt;option&gt;21&lt;/option&gt;
+    &lt;option&gt;22&lt;/option&gt;
+    &lt;option&gt;23&lt;/option&gt;
+    &lt;option selected="true"&gt;24&lt;/option&gt; 
+    &lt;option&gt;25&lt;/option&gt;
+    &lt;option&gt;26&lt;/option&gt;
+    &lt;option&gt;27&lt;/option&gt;
+    &lt;option&gt;28&lt;/option&gt;
+    &lt;option&gt;29&lt;/option&gt;
+    &lt;option&gt;30&lt;/option&gt;
+    &lt;option&gt;31&lt;/option&gt;
+    &lt;option&gt;32&lt;/option&gt;
+    &lt;option&gt;33&lt;/option&gt;
+    &lt;option&gt;34&lt;/option&gt;
+    &lt;option&gt;35&lt;/option&gt;
+    &lt;option&gt;36&lt;/option&gt;
+    &lt;option&gt;37&lt;/option&gt;
+    &lt;option&gt;38&lt;/option&gt;
+    &lt;option&gt;39&lt;/option&gt;
+    &lt;option&gt;40&lt;/option&gt;
+    &lt;option&gt;41&lt;/option&gt;
+    &lt;option&gt;42&lt;/option&gt;
+    &lt;option&gt;43&lt;/option&gt;
+    &lt;option&gt;44&lt;/option&gt;
+    &lt;option&gt;45&lt;/option&gt;
+    &lt;option&gt;46&lt;/option&gt;
+    &lt;option&gt;47&lt;/option&gt;
+    &lt;option&gt;48&lt;/option&gt;
+    &lt;option&gt;49&lt;/option&gt;
+    &lt;option&gt;50&lt;/option&gt;
+    &lt;option&gt;51&lt;/option&gt;
+    &lt;option&gt;52&lt;/option&gt;
+    &lt;option&gt;53&lt;/option&gt;
+    &lt;option&gt;54&lt;/option&gt;
+    &lt;option&gt;55&lt;/option&gt;
+    &lt;option&gt;56&lt;/option&gt;
+    &lt;option&gt;57&lt;/option&gt;
+    &lt;option&gt;58&lt;/option&gt;
+    &lt;option&gt;59&lt;/option&gt;
+    &lt;option&gt;60&lt;/option&gt;
+    &lt;option&gt;61&lt;/option&gt;
+    &lt;option&gt;62&lt;/option&gt;
+    &lt;option&gt;63&lt;/option&gt;
+    &lt;option&gt;64&lt;/option&gt;
+    &lt;option&gt;65&lt;/option&gt;
+    &lt;option&gt;66&lt;/option&gt;
+    &lt;option&gt;67&lt;/option&gt;
+    &lt;option&gt;68&lt;/option&gt;
+    &lt;option&gt;69&lt;/option&gt;
+    &lt;option&gt;70&lt;/option&gt;
+    &lt;option&gt;71&lt;/option&gt;
+    &lt;option&gt;72&lt;/option&gt;
+    &lt;option&gt;73&lt;/option&gt;
+    &lt;option&gt;74&lt;/option&gt;
+    &lt;option&gt;75&lt;/option&gt;
+    &lt;option&gt;76&lt;/option&gt;
+    &lt;option&gt;77&lt;/option&gt;
+    &lt;option&gt;78&lt;/option&gt;
+    &lt;option&gt;79&lt;/option&gt;
+    &lt;option&gt;80&lt;/option&gt;
+    &lt;/select&gt;
+
+&lt;input type=submit value=send&gt;
+&lt;/form&gt;
+
+&lt;!-- 以下為 canvas 畫圖程式 --&gt;
+&lt;script type="text/python"&gt;
+# 從 browser 導入 document
+from browser import document
+from math import *
+# 請注意, 這裡導入位於 Lib/site-packages 目錄下的 spur.py 檔案
+import spur
+
+# 準備在 id="plotarea" 的 canvas 中繪圖
+canvas = document["plotarea"]
+ctx = canvas.getContext("2d")
+
+# 以下利用 spur.py 程式進行繪圖, 接下來的協同設計運算必須要配合使用者的需求進行設計運算與繪圖
+# 其中並將工作分配給其他組員建立類似 spur.py 的相關零件繪圖模組
+# midx, midy 為齒輪圓心座標, rp 為節圓半徑, n 為齒數, pa 為壓力角, color 為線的顏色
+# Gear(midx, midy, rp, n=20, pa=20, color="black"):
+# 模數決定齒的尺寸大小, 囓合齒輪組必須有相同的模數與壓力角
+# 壓力角 pa 單位為角度
+pa ='''+str(P)+'''
+# m 為模數
+m = '''+str(M)+'''
+# 第1齒輪齒數
+n_g1 = '''+str(N1)+'''
+# 第2齒輪齒數
+n_g2 = '''+str(N2)+'''
+
+
+# 計算兩齒輪的節圓半徑
+rp_g1 = m*n_g1/2
+rp_g2 = m*n_g2/2
+
+# 繪圖第1齒輪的圓心座標
+x_g1 = 300
+y_g1 = 300
+# 第2齒輪的圓心座標, 假設排列成水平, 表示各齒輪圓心 y 座標相同
+x_g2 = x_g1 
+y_g2 = y_g1 + rp_g1 + rp_g2
+
+# 將第1齒輪順時鐘轉 90 度
+# 使用 ctx.save() 與 ctx.restore() 以確保各齒輪以相對座標進行旋轉繪圖
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g1, y_g1)
+# rotate to engage
+ctx.rotate(pi)
+# put it back
+ctx.translate(-x_g1, -y_g1)
+spur.Spur(ctx).Gear(x_g1, y_g1, rp_g1, n_g1, pa, "blue")
+ctx.restore()
+
+# 將第2齒輪逆時鐘轉 90 度之後, 再多轉一齒, 以便與第1齒輪進行囓合
+ctx.save()
+# translate to the origin of second gear
+ctx.translate(x_g2, y_g2)
+# rotate to engage
+ctx.rotate(-pi/n_g2)
+# put it back
+ctx.translate(-x_g2, -y_g2)
+spur.Spur(ctx).Gear(x_g2, y_g2, rp_g2, n_g2, pa, "black")
+ctx.restore()
+
+
+
+
+
+# 按照上面三個正齒輪的囓合轉角運算, 隨後的傳動齒輪轉角便可依此類推, 完成6個齒輪的囓合繪圖
+
+&lt;/script&gt;
+&lt;canvas id="plotarea" width="1200" height="1200"&gt;&lt;/canvas&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 '''
